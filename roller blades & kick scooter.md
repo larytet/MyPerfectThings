@@ -15,4 +15,4 @@ No wires, no charging ports (wireless charging?), simple to replace/remove the b
 See RazErblades http://www.etotheipiplusone.net/?cat=63
 
 
-Off road electric roller blades is another interestig idea. Is it possible to make wide, but light wheels which still can perform like roller blades? See "Skopinski off-road rollerblades"
+Off road electric roller blades is another interestig idea. Is it possible to make wide, but light wheels which still can perform like roller blades? See "Skopinski off-road rollerblades", "Powerslide Metropolis SUV "
