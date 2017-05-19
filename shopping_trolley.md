@@ -3,7 +3,7 @@ I often use my kick scooter when shopping for groceries and basics.
 Shopping trolleys is apparently a serious business in Europe. See shopping trolleys on Amazon.uk. 
 In the large European cities where many families do not have a car at all or park a car in the parking lots far 
 from home a shopping trolley can often be seen. A trolley is not an exclusive attribute of grand moms anymore. 
-There are producers out there who attempt to redefine a trolley  - see, for example "Hook and Go Urban Trolley". 
+There are producers out there who attempt to redefine a trolley  - see, for example "Hook and Go Urban"http://www.hookandgo.com/ trolley.
 
 The existing trolleys are not reliable, clunky things. The market is highly fragmented. A large company with 
 two or three well positioned products can conquer the market completely. 
