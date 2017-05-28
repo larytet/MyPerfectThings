@@ -6,5 +6,9 @@ My perfect car radio
 * Allows to mix 2 channels
 * I do not need any buttons, a low latency touch sensitive display will do
 * Always show correct local time, time zone, day savings time - all is automatic and easily configurable.
+* Recognise speach and lower the volume if somebody talks 
+* Automatically adapt the volume to the noise conditions
+* Keep the station on by switch automatically to different band when travelling
+* 
 
 
