@@ -11,4 +11,5 @@ Theoretical complexity of a wallet password:
 *  16 possible positions around the finger 
 *  8 angles in the vertical plane 
 *  number of strokes in a ring segment
+*  tap or brush
 *  8 segments for the strokes
