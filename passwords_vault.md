@@ -7,4 +7,4 @@ one of the 8 banks and project them on any surface.
 
 
 Theoretical complexity of a wallet password:
-*  16 positions around the finger X 8 angles X number of strokes X 8 positions of the strokes
+*  16 positions around the finger X 8 angles in the vertical plane X number of strokes X 8 positions of the strokes
