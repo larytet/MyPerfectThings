@@ -3,3 +3,4 @@ A small wearable which knows that I left lights on, failed to lock the door, for
 *  https://www.happiclife.com/
 *  http://imerciv.com/
 *  http://tacitpleasures.com/
+*  https://wearmoment.com/
