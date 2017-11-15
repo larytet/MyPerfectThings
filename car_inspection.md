@@ -20,3 +20,5 @@ Patents:
 * ttps://www.google.co.il/patents/US7019641
 * https://patents.google.com/patent/US7676062B2
 * https://www.google.com/patents/US6768420
+* https://patents.google.com/patent/US20060251293A1
+* https://patents.google.com/patent/US20080147404A1
