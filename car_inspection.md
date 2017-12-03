@@ -1,5 +1,5 @@
 
-Inspection of the cars as the enter a compound. Cameras installed on the ground scan the undercarriage of the cars, recog the car model, find disturbances. Robotic parts change the orientation, focus, zoom, position of the cameras depending on the size of the vehicle.
+Inspection of  cars as they enter a compound. Cameras installed on the ground scan the undercarriage of the cars, recog the car model, find disturbances. Robotic parts change the orientation, focus, zoom, position of the cameras depending on the size of the vehicle.
 
 
 Among other things bombs, weight of the load. The system can count number of people in the vehicle and estimate the load and lot of other things, fresh scratches on the undercarriage, automatic recognition of the number plates if the car was rented recently, fresh scratches on the locks, condition of tires, color of dirt
