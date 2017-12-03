@@ -1,6 +1,8 @@
 A cellphone without a display. A feedback is provided via vibration, heat, led indicators, voice, screen casting.
 A cell phone without a display or with a small LCD/E-ink display can have a smaller battery, simpler and cheaper CPU, does not need GPU. 
 
+I imagine that such phone could run even a navigation program. 
+
 This is not a phone for everyone. 
 
 
