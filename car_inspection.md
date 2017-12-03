@@ -26,7 +26,6 @@ Links:
 * http://www.altairhyperworks.com/product/FEKO
 * https://finder.startupnationcentral.org/company_page/uveye
 * https://walabot.com/  - antennas array
-* https://www.google.co.il/patents/US6026340  - use of ultra sound
 
 Patents:
 
@@ -37,3 +36,4 @@ Patents:
 * https://www.google.com/patents/US6768420
 * https://patents.google.com/patent/US20060251293A1
 * https://patents.google.com/patent/US20080147404A1
+* https://www.google.co.il/patents/US6026340  - use of ultra sound
