@@ -13,3 +13,9 @@ Theoretical complexity of a wallet password:
 *  number of strokes in a ring segment
 *  tap or brush
 *  8 segments for the strokes
+
+
+Alternatives:
+
+*  Cryptocurrency wallets like Trezor (starts from insane $99)
+*  Cryptosteel ($99)
