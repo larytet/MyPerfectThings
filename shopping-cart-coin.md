@@ -7,6 +7,10 @@ Something like "keychain coin holders for trolley with coil spring" or "Euro Sho
 * https://www.alibaba.com/product-detail/Promotional-Custom-Metal-Euro-Shopping-Cart_60299791270.html
 * https://www.alibaba.com/product-detail/Shopping-trolley-cart-coin-keychain-for_60199133908.html
 * https://www.alibaba.com/product-detail/Hot-Sale-High-Quality-Factory-Price_60621007883.html
-* 
+
+
+More parts
+* https://www.aliexpress.com/item/23-3-mm-diameter-1-EUR-shopping-cart-can-custom-made-100pcs-lot-Blank-Circle-wood/32806182318.html
+* https://www.aliexpress.com/item/5PC-Stainless-Steel-Wire-Keychain-Cable-Rope-Key-Holder-Keyring-5-Colors-Key-Chain-Rings-Women/32615977504.html
 
 Preferably with BT.
