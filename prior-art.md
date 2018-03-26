@@ -10,7 +10,7 @@ The client side application repeats the process as neccessary.
 
 
 
-*Using a rnage of TCP ports to exchange information between a WEB page and locally running service*
+*Use a range of TCP ports to exchange information between a WEB page and locally running service*
 
 A dynamically generated WEB page encodes information using a range of IP addresses and IP ports. The local IP addresses is from the "localhost" 
 "localhost" range of addresses 127.0.0.0/24. The WEB page executes AJAX calls to the local IP addresses in a specific order or 
