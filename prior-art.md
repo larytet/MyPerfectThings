@@ -17,6 +17,20 @@ the application by fingerprint - patterns of system calls. The service comes wit
 
 Deep learning algorithms can be applied to the collected in the "learning" mode data.
 
+*Use of virtual "honeypots" for intrusion detection*
+
+A service installs vritual objects in the system. A virtual object can be 
+  - a virtual file 
+  - files with SSH private keys
+  - know_hosts files
+  - virtual users
+  - virtual users "home" folders wth cookies, password files, fake browsig history
+The service simulates activity between virtual nodes:
+  - SSH, FTP, Telnet connections
+  - File sharing
+The service catches cases when an unknow party (an adversary) attempts to access one or more virtual resources.
+The service collects such instances. The service reports the instances via an API.
+
 *Hide DNS server, authorize DNS clients*
 
 In the setup a client side application executes an authorization handshake with the required service. The client gets an IP address of the DNS 
