@@ -26,7 +26,7 @@ A service installs vritual objects in the system. A virtual object can be
   - virtual users
   - virtual users "home" folders wth cookies, password files, fake browsig history
 The service simulates activity between virtual nodes:
-  - SSH, FTP, Telnet connections
+  - SSH, FTP, Telnet connections between VMs
   - File sharing
 The service catches cases when an unknow party (an adversary) attempts to access one or more virtual resources.
 The service collects such instances. The service reports the instances via an API.
