@@ -1,5 +1,21 @@
 
+*Use of system calls for intrusion detection"
 
+The service collects system calls triggered by applications.  A system call:
+  - I/O
+  - memory allocation
+  - memory access
+  - hardware access
+  - thread creation/deletion
+  - etc
+
+The service time stamps the system calls. The service looks for patterns in the collected data. The service recognizes 
+the application by fingerprint - patterns of system calls. The service comes with a preset patterns for popular applications. The service can run in "learning" mode and build the patterns. When in the "operational" mode the service looks for disturbances in the patterns. An example of disturbance: 
+  - assuming that an editing application uses buffer 32K for TCP and always sends blocks 32K where only the last block
+  in the sequence is smaller than 32K
+  - the editing application sends three TCP packets 256 bytes each 
+
+Deep learning algorithms can be applied to the collected in the "learning" mode data.
 
 *Hide DNS server, authorize DNS clients*
 
