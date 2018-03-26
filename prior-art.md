@@ -34,10 +34,10 @@ The service collects such instances. The service reports the instances via an AP
 *Hide DNS server, authorize DNS clients*
 
 In the setup a client side application executes an authorization handshake with the required service. The client gets an IP address of the DNS 
-server allocated from a large block of IPv6 or IPv4 addresses and the address expirationn time. The client side application sets 
+server and the address expiration time. The IP address of the serve is dnamically and randomly allocated from a large block of IPv6 or IPv4 addresses. The client side application sets 
 the received DNS server IP address in the operating system configuration. 
 The client side application repeats the process as neccessary.
-
+An adirsary wishing to exploit the DNS services should scan the allocated IP range. The IP range can be very large making the attack hard to implement. 
 
 
 *Use a range of TCP ports to exchange information between a WEB page and locally running service*
