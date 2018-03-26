@@ -1,5 +1,5 @@
 
-*Use of system calls for intrusion detection"
+*Use of system calls for intrusion detection*
 
 The service collects system calls triggered by applications.  A system call:
   - I/O
