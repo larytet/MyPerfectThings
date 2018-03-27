@@ -39,6 +39,9 @@ the received DNS server IP address in the operating system configuration.
 The client side application repeats the process as neccessary.
 An adirsary wishing to exploit the DNS services should scan the allocated IP range. The IP range can be very large making the attack hard to implement. 
 
+*Use of local DNS resolver*
+
+A locally running service configures 127.0.0.1:53 as a DNS server. The service forwards (proxies) all queries to the DNS resolver over an encrypted channel. The service runs authorization handshake if needed. 
 
 *Use a range of TCP ports to exchange information between a WEB page and locally running service*
 
