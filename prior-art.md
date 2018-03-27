@@ -41,7 +41,7 @@ An adirsary wishing to exploit the DNS services should scan the allocated IP ran
 
 *Use of local DNS resolver*
 
-A locally running service configures 127.0.0.1:53 as a DNS server. The service forwards (proxies) all queries to the DNS resolver over an encrypted channel. The service runs authorization handshake if needed. 
+A locally running service configures 127.0.0.1:53 as a DNS server. The service forwards (proxies) all queries to the DNS resolver over an encrypted channel. The service runs authorization handshake if needed. The service employs DNSCrypt protocol or a proprietary protocol.
 
 *Use a range of TCP ports to exchange information between a WEB page and locally running service*
 
