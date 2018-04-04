@@ -4,6 +4,14 @@ originally posted by https://www.quora.com/profile/Sabine-Ehlers
 Create a monitorint system for a small herd (under 50 animals) where an animal costs $150.
 
 The scalable solution contains 360 degree camera, sound sensors, light reflecting tag for every animal (optional), AI. 
-The systen can employ a bright light source to signal the herd owner that something is wrong. Such ligh source 
-can be registered automatically. The distance is 40-80 miles. The registration device maps the signal, forwards the alarm using 
-light or any mobile network.   
+
+The systen can employ a bright light source or AM radio to signal the herd owner that something is wrong. Such light source 
+can be registered automatically. The distance is 40-80 miles. The registration device (a repeater or a final destination) 
+maps the signal, forwards the alarm using light or any mobile network. 
+
+Quesiton:
+* Typical weather conditions?
+* Is the toplogy mainly flat?
+* What is a typical distance between herds?
+* Size of the herd?
+* Number of animals in a herd?
