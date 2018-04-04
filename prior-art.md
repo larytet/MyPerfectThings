@@ -44,3 +44,15 @@ An adirsary wishing to exploit the DNS services should scan the allocated IP ran
 A locally running service configures 127.0.0.1:53 as a DNS server. The service forwards (proxies) all queries to the DNS resolver over an encrypted channel. The service runs authorization handshake if needed. The service employs DNSCrypt protocol or a proprietary protocol.
 
 *Use a range of TCP ports to exchange information between a WEB page and locally running service*
+
+
+A dynamically generated WEB page encodes information using a range of IP addresses and IP ports. The local IP addresses is from the "localhost" 
+range of addresses 127.0.0.0/24. The WEB page executes AJAX calls to the local IP addresses in a specific order or 
+in arbitrary order.  
+The destination port is a unique combination of ports from a predefined range of ports. The locally running service:
+  - "accepts" the connections and closes the connection immediately 
+  - records connection attempts
+ Alternatively the service can only record connection attempts without "accepting" the connections.
+ 
+ The service can indentify the process which issued the TCP connection requests. The service can link between the TCP ports and 
+ processes. The service decodes the range of IP addresses and ports into the original information
