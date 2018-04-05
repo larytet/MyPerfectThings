@@ -1,7 +1,7 @@
 Based on https://www.quora.com/Can-a-sheep-die-if-it-falls-over-and-there-is-no-shepherd/answer/Sabine-Ehlers
 originally posted by https://www.quora.com/profile/Sabine-Ehlers
 
-Create a monitorint system for a small herd (under 50 animals) where an animal costs $150.
+Create a monitoring system for a small herd (under 50 animals) where an animal costs $150.
 
 The scalable solution contains 360 degree camera, sound sensors, light reflecting tag for every animal (optional), AI. 
 
@@ -13,5 +13,5 @@ Quesiton:
 * Typical weather conditions?
 * Is the toplogy mainly flat?
 * What is a typical distance between herds?
-* Size of the herd?
+* Size of the area  occupied by the herd?
 * Number of animals in a herd?
