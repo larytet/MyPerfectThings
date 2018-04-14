@@ -12,3 +12,4 @@ Such service will be very hard to block.
 
 * List of popular chat clients https://www.recode.net/2017/4/15/15297316/apps-whatsapp-signal-imessage-hacking-hackers-messages-privacy
 * Very similar idea https://silence.im/
+* Privacy and Data Protection in Smartphone Messengers https://www.sba-research.org/wp-content/uploads/publications/paper_drafthp.pdf 
