@@ -11,3 +11,4 @@ We can add an initial handshake as well where users identify themselves using un
 Such service will be very hard to block.
 
 * List of popular chat clients https://www.recode.net/2017/4/15/15297316/apps-whatsapp-signal-imessage-hacking-hackers-messages-privacy
+* Very similar idea https://silence.im/
