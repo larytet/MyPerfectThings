@@ -10,9 +10,15 @@ something is wrong. Such light source can be registered automatically. The dista
 The registration device (a repeater or a final destination) maps the signal, forwards the alarm using light 
 or any mobile network. 
 
+Pricing:
+
+* Ongoing maintenance costs should be below 1-2% of the small herd sale price - under $100/year.
+* Initial cost should be below 1-2% of the initial business spendings
+
 Quesiton:
+
 * Typical weather conditions?
 * Is the topogrpahy mostly flat?
 * What is a typical distance between herds?
-* Size of the area  occupied by the herd - can be 10s of miles, this one is a hard to crack issue
-* Number of animals in a herd?
+* Size of the area  occupied by the herd? can be 10s of miles, this one is a hard to crack issue
+* Number of animals in a herd? 100s to 1000s 
