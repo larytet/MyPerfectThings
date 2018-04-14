@@ -14,5 +14,5 @@ Quesiton:
 * Typical weather conditions?
 * Is the topogrpahy mostly flat?
 * What is a typical distance between herds?
-* Size of the area  occupied by the herd?
+* Size of the area  occupied by the herd - can be 10s of miles, this one is a hard to crack issue
 * Number of animals in a herd?
