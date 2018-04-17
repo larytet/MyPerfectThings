@@ -54,5 +54,6 @@ The destination port is a unique combination of ports from a predefined range of
   - records connection attempts
  Alternatively the service can only record connection attempts without "accepting" the connections.
  
- The service can indentify the process which issued the TCP connection requests. The service can link between the TCP ports and 
- processes. The service decodes the range of IP addresses and ports into the original information
+ The service can indentify the process which issued the TCP connection requests. The service can link between the TCP ports and  processes. The service decodes the range of IP addresses and ports into the original information
+ 
+ The service can allocate multiple ports ranges. This allows the system to add redundancy. The service can tolerate  failure to bind some of the ports in some of the ranges. For example, originally I decide to use combinations of 4 ports from 50 ports. I have 230K unqiue 4 ports combinations. I choose a 5 ports combination (0, 1, 2, 3, 4). I allow any of 4 ports combinations of these 5 ports (0, 1, 2, 3), (0, 1, 2, 4), (0, 1, 3, 4), (0, 2, 3, 4), (1, 2, 3, 4). In this case I have 20% redundancy.
