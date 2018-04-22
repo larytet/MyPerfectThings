@@ -5,7 +5,7 @@ Create a monitoring system for a small herd (under 50 animals) where an animal c
 
 The scalable solution contains 360 degree camera, sound sensors, an optional light reflecting tag for every animal, AI. 
 
-The systen can employ a bright light source, AM radio, satellite communication to signal the herd owner that 
+The system can employ a bright light source, AM radio, satellite communication to signal the herd owner that 
 something is wrong. Such light source can be registered automatically. The distance is 40-80 miles. 
 The registration device (a repeater or a final destination) maps the signal, forwards the alarm using light 
 or any mobile network. 
