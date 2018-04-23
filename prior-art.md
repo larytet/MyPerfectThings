@@ -16,6 +16,8 @@ the application by fingerprint - patterns of system calls. The service comes wit
   - the editing application sends three TCP packets 256 bytes each 
 
 Deep learning algorithms can be applied to the collected in the "learning" mode data.
+Links
+*  https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/
 
 *Use of virtual "honeypots" for intrusion detection*
 
