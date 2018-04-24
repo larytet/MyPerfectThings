@@ -2,7 +2,7 @@ Assorted ideas related to the trucks:
 
 *  We need to deliver high quality video only for the area where the driver has his eyes on. 
 *  We shall ensure under 5ms latency between recognition of a saccade and displaying a high resolution image in the right place. 
-*  Under 5ms roundtrip latency is not realistik in the modern generally available IP networks. 
+*  Under 5ms roundtrip latency is not realistic in the modern generally available IP networks (microwaves here?). 
 *  The car can record 360 degrees view in high resolution, but send only low resolution stream for all or most areas.
 *  We want to minimize the network latency and impact of the network congestion. One of the ways to do this is to require 100% visibility for the microwave transmitters. 
 *  Semi-autonomous driving will help to reduce "down time" when the network is not available.
