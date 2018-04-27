@@ -8,3 +8,5 @@ The controller and power supply are inside of the motorcycle frame or attached t
 This project rasied 350K https://www.kickstarter.com/projects/491835187/crosshelmet-the-smart-motorcycle-helmet
 
 200K  https://www.kickstarter.com/projects/nuviz/the-first-head-up-display-for-motorcycle-helmets 
+
+2M raised https://www.indiegogo.com/projects/skully-ar-1-the-world-s-smartest-motorcycle-helmet#/
