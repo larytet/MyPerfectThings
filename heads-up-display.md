@@ -4,6 +4,7 @@ A thin film connected to the visor creates an illusion of floating ahead display
 hidden zones on right and left, indication of fast approaching vehicles.
 
 The controller and power supply are inside of the motorcycle frame or attached to the rider. 
+Should support integration with the cellphones, screencast. A cell phone can be used as a controller.
 
 This project rasied 350K https://www.kickstarter.com/projects/491835187/crosshelmet-the-smart-motorcycle-helmet
 
