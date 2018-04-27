@@ -9,7 +9,8 @@ My perfect car radio
 * Recognise speach and lower the volume if somebody talks 
 * Automatically adapt the volume to the noise conditions
 * Keep the station on by switching automatically to different band when travelling (search for the bands if neccessary)
-* 
+* Applicaton for a cell phone which does the same - FM radio + full functionality
+* A USB-FM adapter for a cellphone which broadcasts the radio. 
 
 
 
