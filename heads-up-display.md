@@ -5,6 +5,14 @@ hidden zones on right and left, indication of fast approaching vehicles.
 
 The controller and power supply are inside of the motorcycle frame or attached to the rider. 
 Should support integration with the cellphones, screencast. A cell phone can be used as a controller.
+Some of the features: 
+
+* Image stabilization
+* automatic zoom for maps 
+* heptic feedback from the navigation software. 
+* Intelligent indication of a busy lane when switching lanes
+* Indication of vehicles approaching or on collision course
+* 
 
 This project rasied 350K https://www.kickstarter.com/projects/491835187/crosshelmet-the-smart-motorcycle-helmet
 
