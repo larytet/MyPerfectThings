@@ -14,3 +14,4 @@ My perfect car radio
 
 
 
+Business model - sell to a large car maker or radio station,
