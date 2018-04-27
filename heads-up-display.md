@@ -5,4 +5,6 @@ hidden zones on right and left, indication of fast approaching vehicles.
 
 The controller and power supply are inside of the motorcycle frame or attached to the rider. 
 
-This project rasied 350K
+This project rasied 350K https://www.kickstarter.com/projects/491835187/crosshelmet-the-smart-motorcycle-helmet
+
+200K  https://www.kickstarter.com/projects/nuviz/the-first-head-up-display-for-motorcycle-helmets 
