@@ -1,5 +1,11 @@
 Heads up display for motorcycle helmet.
 
+
+*  A virutal display floating ~20m ahead of the visor (motorcyle or car).
+*  Powered by a block inside the car (not in the helmet itself) - allows unlimited power supply and light weight. Light weight is important for the helmets.
+*  Can be connected to the cellphone as a second display and show the navigation
+*  Can be connected to the CAN busses of the vehicle 
+
 A thin film connected to the visor creates an illusion of floating ahead display. The display provides map, obstacles in the 
 hidden zones on right and left, indication of fast approaching vehicles.
 
