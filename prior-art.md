@@ -1,6 +1,8 @@
 
 *Use of collected system calls and the system calls arguments for intrusion detection*
 
+See also https://github.com/larytet/MyPerfectThings/blob/master/yalas.md
+
 The service collects system calls triggered by applications.  A system call:
   - I/O
   - memory allocation
