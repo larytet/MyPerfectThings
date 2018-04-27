@@ -12,7 +12,7 @@ Some of the features:
 * heptic feedback from the navigation software. 
 * Intelligent indication of a busy lane when switching lanes
 * Indication of vehicles approaching or on collision course
-* 
+* Smart FM radio with ad block, quick channel swicthing, automatic channel switching between zones. 
 
 This project rasied 350K https://www.kickstarter.com/projects/491835187/crosshelmet-the-smart-motorcycle-helmet
 
