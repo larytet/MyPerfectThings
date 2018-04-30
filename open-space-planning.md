@@ -4,7 +4,7 @@ The problem is that I see the lamp above the next table. This is a nice, strong 
 
 # AC
 
-Apparently it is impossible to change the direction of the air flow. I feel how the cold air dries my eyes. My hands are getting uncomfortably cold. Dry and cold. Am I dead? Am I dying? Oh, I get it - this is AC. Usually the AC openings can be directed or partially closed. Not it in this case. Should I cover the outlets with nylon? Should I wear a full face motorcycle helmet and winter gloves? Good distribution of the cold air is tricky and expensive to do. The installation reminds me walkin coolers and London tube. Meanwhile a hood almost saves the day.
+Apparently it is impossible to change the direction of the air flow. I feel how the air freeze drying my eyes. My hands are getting uncomfortably cold. Dry and cold. Am I dead? Am I dying? Oh, I get it - this is AC. Usually the AC openings can be directed or partially closed. Not it in this case. Should I cover the outlets with nylon? Should I wear a full face motorcycle helmet and winter gloves? Good distribution of the cold air is tricky and expensive to do. The installation reminds me walkin coolers and London tube. Meanwhile a hood almost saves the day.
 
 # Open space
 
