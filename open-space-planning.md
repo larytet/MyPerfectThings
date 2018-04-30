@@ -8,7 +8,7 @@ Apparently it is impossible to change the direction of the air flow. I feel how 
 
 # Open space
 
-I hear a small talk in the opposite corner 20 meters from me. I am  not sure if this was the plan. There is background noise all the time. I imagine that some people more sensitive to the surrounding noise than others. I suspect that there is a badly hidden hate of open spaces in the Israeli hitech. If I am right it is going to be harder to fill positions especially by old hands. Who needs old buggers anyway?
+In my case this is a fairly large, completely open space without any walls. I hear a small talk in the opposite corner 20 meters from me. I am  not sure if this was the plan. There is background noise all the time. I imagine that some people more sensitive to the surrounding noise than others. I suspect that there is a badly hidden hate of open spaces in the Israeli hitech. If I am right it is going to be harder to fill positions especially by old hands. Who needs old buggers anyway?
 
 
 
