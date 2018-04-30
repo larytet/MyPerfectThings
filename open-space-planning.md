@@ -1,6 +1,6 @@
 # Lights
 
-The problem is that I see the lamp above the next table. This is a nice, strong 3 meters long lamp with almost perfect light distribution. The lamp is bright. Usually the lamps are hidden inside of niches. Here, in the new office the lights float above the head. I see the light atop in my peripheral vision unless I look down or wear a hood. Is it possible to pull the lights higher and/or shade the lights? I am gald you asked. Not in this case. There is probably 20sm gap. 
+The problem is that I see the lamp above the next table. This is a nice, strong 3 meters long lamp with good light distribution. The lamp is bright. Usually the lamps are hidden inside of niches. Here, in the new office the lights float above the head. I see the light atop in my peripheral vision unless I look down or wear a hood. Is it possible to pull the lights higher and/or shade the lights? I am gald you asked. Not in this case. There is probably 20sm gap. 
 
 # AC
 
