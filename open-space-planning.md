@@ -6,6 +6,8 @@ The problem is that I see the lamp above the next table. This is a nice, strong 
 
 Apparently it is impossible to change the direction of the air flow. I feel the air freeze drying my eyes. My hands are getting uncomfortably cold. Dry and cold. Am I dead? Am I dying? Oh, I get it - this is AC. Usually the AC openings can be directed or partially closed. Not in this case. Should I cover the outlets with nylon? Should I wear a full face motorcycle helmet and winter gloves? Good distribution of the cold air is tricky and expensive to do. The installation reminds me walkin coolers and London tube. Meanwhile a hood almost saves the day.
 
+Is it possible to push the air along the walls? 
+
 # Open plan
 
 In my case this is a fairly large, completely open space without any screens. The desks are grouped in islands 6-8 people. Michael Bloomberg's dream lives on. I hear a small talk in the opposite corner 20 meters from me. This is an architect discusses what sounds like a trivial problem with one of the top R&D managers and a UI person. I am happy to learn that we are planning to choose asynchronous handling of events. I am  not sure if this was the plan that I will overhear everything. It is important. One of the Scrum masters joins in. "Safe" buttons are never simple. There is background noise all the time. I imagine that some people more sensitive to the surrounding noise than others. I suspect that there is a badly hidden hate of open spaces in the Israeli hitech. If I am right it is going to be harder to fill positions especially by old hands. Who needs old buggers anyway?
