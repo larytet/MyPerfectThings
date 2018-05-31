@@ -10,4 +10,4 @@ Devices like these are fairly popular
 
 * https://www.aliexpress.com/item/Anica-V36-Ultrathin-credit-card-cellphone-metal-body-bluetooth-2-0-dialer-anti-lost-FM-mp3/32783874776.html
 * https://www.aliexpress.com/item/Small-Size-Metal-Shell-Card-Phone-SATREND-A10-1-77-Inch-TFT-Dual-SIM-Card-with/32801000788.html
-* 
+* https://www.phonearena.com/news/BllocZero18-simplistic-black-and-white-phone_id105317  - Black&White cell phone
