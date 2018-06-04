@@ -15,3 +15,7 @@ My perfect car radio
 
 
 Business model - sell to a large car maker or radio station,
+
+
+Links 
+*  http://qr.ae/TUTfWn 8% of all internet users account for 85% of all ad clicks
