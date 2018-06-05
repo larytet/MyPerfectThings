@@ -28,3 +28,7 @@ This project rasied 350K https://www.kickstarter.com/projects/491835187/crosshel
 2M raised https://www.indiegogo.com/projects/skully-ar-1-the-world-s-smartest-motorcycle-helmet#/
 
 https://crosshelmet.com 
+
+Links
+
+* https://www.tomshardware.com/news/Gorilla-Glass-Corning-Flexible-Glass-Curved-Glass-Willow-Glass,15879.html 
