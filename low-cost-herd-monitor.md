@@ -22,3 +22,6 @@ Quesiton:
 * What is a typical distance between herds?
 * Size of the area  occupied by the herd? can be 10s of miles, this one is a hard to crack issue
 * Number of animals in a herd? 100s to 1000s 
+
+Links
+* https://www.quora.com/Why-do-sheep-make-noise/answer/Carolynn-Bernard
