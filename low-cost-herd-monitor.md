@@ -8,7 +8,9 @@ The scalable solution contains 360 degree camera, sound sensors, an optional lig
 The system can employ a bright light source, AM radio, satellite communication to signal the herd owner that 
 something is wrong. Such light source can be registered automatically. The distance is 40-80 miles. 
 The registration device (a repeater or a final destination) maps the signal, forwards the alarm using light 
-or any mobile network. 
+or any mobile network.
+
+I can put a unique, light refelcting sticker on every sheep. A drone tries to locate the sheep, map the animals, flag the animals which do not move for some time. 
 
 Pricing:
 
