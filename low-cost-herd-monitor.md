@@ -10,7 +10,7 @@ something is wrong. Such light source can be registered automatically. The dista
 The registration device (a repeater or a final destination) maps the signal, forwards the alarm using light 
 or any mobile network.
 
-I can put a unique, light refelcting sticker on every sheep. A drone tries to locate the sheep, map the animals, flag the animals which do not move for some time. The drone can utilize the ultra short ot short radio waves to communicate alerts to the base. 
+I can put a unique, light refelcting sticker on every sheep. A drone tries to locate the sheep, map the animals, flag the animals which do not move for some time. The drone can utilize the ultra short or short radio waves to communicate alerts to the base. 
 
 Pricing:
 
