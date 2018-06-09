@@ -24,4 +24,4 @@ Quesiton:
 * Number of animals in a herd? 100s to 1000s 
 
 Links
-* https://www.quora.com/Why-do-sheep-make-noise/answer/Carolynn-Bernard
+* https://www.quora.com/Why-do-sheep-make-noise/answer/Carolynn-Bernard A sheep often produces unique noices. Is it possible to register a distress?
