@@ -1,6 +1,5 @@
 Yet Another Linux Audit System
 
-
 The goals of the system:
 
 *  Collect critical system information - writing to files, modification of system files, sending data to the outside world, shared memory operations, TTY logging, follow process execution chains 
