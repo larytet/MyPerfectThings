@@ -14,7 +14,7 @@ Taxi is tricky - most of the driving happens in the city. Network is congested o
 Microwave is not a good solution for the city as well.
 
 *  Agreeements with the cellular providers can resolve some of the QoS problems. 
-*  Dedicated marking on roads, dedictaed lanes which simplify the work for semi-autonomous cars.
+*  Dedicated marking on roads, dedicated lanes which simplify the work for semi-autonomous cars.
 
 
 Links
