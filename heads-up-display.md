@@ -20,6 +20,7 @@ Some of the features:
 * Indication of vehicles approaching or on collision course
 * Smart FM radio with ad block, quick channel swicthing, automatic channel switching between zones
 * Social network
+* Haptic feedback for GPS, incoming calls, vehicles in blind zones
 
 This project rasied 350K https://www.kickstarter.com/projects/491835187/crosshelmet-the-smart-motorcycle-helmet
 
