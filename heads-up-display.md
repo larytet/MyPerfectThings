@@ -33,3 +33,9 @@ https://crosshelmet.com
 Links
 
 * https://www.tomshardware.com/news/Gorilla-Glass-Corning-Flexible-Glass-Curved-Glass-Willow-Glass,15879.html 
+* http://qr.ae/TUGgFS 
+
+
+
+See also "holographic optical elements" and heads up automobile display using holographic optical elements on windshield
+real-time hologram (RTH), using essentially the liquid crystal system in your computer display. It actually retards one polarization of light by a specific amount at each pixel and can be used as a spatial phase modulator. This in turn can be used as a hologram. The idea is to correct for aberrations in a large lightweight mirror that cannot hold its shape, or to compensate for for a poor quality laser beam. They called it NLOS (Non-linear Optical System)
