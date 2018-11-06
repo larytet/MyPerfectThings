@@ -3,7 +3,7 @@ in the ring surface. The user shall orient the ring in a specific way and brush 
 in a specific order. At this point ring "opens". There can be more than one virtuall wallet in the ring which opens 
 by different 
 sets of strokes. After a ring wallet opens touch of ony of the regions will scroll the passwords in 
-one of the 8 banks and project them on any surface. 
+one of the 8 banks and project them on any surface. Alternatively the ring can exchange security tokens with the application/WEB server over WiFi/video camera/BT.
 
 
 Theoretical complexity of a wallet password:
