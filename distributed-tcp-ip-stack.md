@@ -4,3 +4,5 @@ The goal is to ensure delivery of all packets even if a few nodes go down, get r
 
 * https://www.ssrg.ece.vt.edu/papers/2017_icdcs_netpopcorn.pdf
 * https://github.com/mtcp-stack/mtcp
+* https://github.com/fpgasystems/fpga-network-stack
+* https://netfpga.org/
