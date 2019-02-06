@@ -10,11 +10,11 @@ Is it possible to push the air along the walls?
 
 # Open plan
 
-In my case this is a fairly large, completely open space without any screens. The desks are grouped in islands 6-8 people. Michael Bloomberg's dream lives on. I hear a small talk in the opposite corner 20 meters from me. This is an architect discusses what sounds like a trivial problem with one of the top R&D managers and a UI person. I am happy to learn that we are planning to choose asynchronous handling of events.It is important. One of the Scrum masters joins in. "Save" buttons are never simple. I am  not sure if this was the plan that I will overhear everything. There is background noise all the time. I imagine that some people more sensitive to the surrounding noise than others. I suspect that there is a badly hidden hate of open spaces in the Israeli hitech. If I am right it is going to be harder to fill positions especially by old hands. Who needs old buggers anyway?
+In my case this is a fairly large, completely open space without any screens. The desks are grouped in islands 6-8 people. Michael Bloomberg's dream lives on. I hear a small talk in the opposite corner 20 meters from me. This is an architect discusses what sounds like a trivial problem with one of the top R&D managers and a UI person. I am happy to learn that we are planning to choose asynchronous handling of events.It is important. One of the Scrum masters joins in. "Save" buttons are never simple. I am  not sure if this was the goal that I will overhear everything. There is background noise all the time. I imagine that some people more sensitive to the surrounding noise than others. I suspect that there is a badly hidden hate of open spaces in the Israeli hitech. If I am right it is going to be harder to fill positions especially by old hands. Who needs old buggers anyway?
 
 # A patio
 
-There is a small open sky patio in the middle of the office. I estimate the April temperatures exceeding 30 degrees. There is a heap of puffs on the patio waiting for the winter rains. It is not an easy choice between the patio and the AC inside. The life is void of easy choices.
+There is a small open sky patio in the middle of the office. I estimate the April temperatures exceed 30C degrees. There is a heap of puffs on the patio waiting for the winter rains. It is not an easy choice between the patio and the AC inside. The life is void of easy choices.
 
 
 
