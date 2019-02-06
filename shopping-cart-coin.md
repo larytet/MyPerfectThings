@@ -16,4 +16,4 @@ More parts
 Preferably with BT.
 
 
-Also this https://www.aliexpress.com/item/Lavender-Dragonfly-Round-2-Holes-Wood-Buttons-Sewing-Scrapbooking-Random-Mixed-24mm-50PCs/32534956364.html  - $2 for a pack of 50. You can throw away one every time you shop. 
+Also this https://www.aliexpress.com/item/Lavender-Dragonfly-Round-2-Holes-Wood-Buttons-Sewing-Scrapbooking-Random-Mixed-24mm-50PCs/32534956364.html  - $2 for a pack of 50 (24mm). You can throw away one every time you shop. 
