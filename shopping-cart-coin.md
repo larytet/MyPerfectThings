@@ -14,3 +14,6 @@ More parts
 * https://www.aliexpress.com/item/5PC-Stainless-Steel-Wire-Keychain-Cable-Rope-Key-Holder-Keyring-5-Colors-Key-Chain-Rings-Women/32615977504.html
 
 Preferably with BT.
+
+
+Also this https://www.aliexpress.com/item/Lavender-Dragonfly-Round-2-Holes-Wood-Buttons-Sewing-Scrapbooking-Random-Mixed-24mm-50PCs/32534956364.html  - $2 for a pack of 50. You can throw away one every time you shop. 
