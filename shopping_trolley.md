@@ -5,6 +5,6 @@ In the large European cities where many families do not have a car at all or par
 from home a shopping trolley can often be seen. A trolley is not an exclusive attribute of grand moms anymore. 
 There are producers out there who attempt to redefine a trolley  - see, for example [Hook and Go](http://www.hookandgo.com/) trolley, [Tura](http://amzn.eu/b110UiD), [Royal](http://amzn.eu/6igbzv2)
 
-The existing trolleys are not reliable, clunky things. The market is highly fragmented. A large company with 
+The existing trolleys are clunky, not reliable things. The market is highly fragmented. A large company with 
 two or three well positioned products can conquer the market completely. 
 
