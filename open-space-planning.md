@@ -6,6 +6,8 @@ The problem is that I see the lamp above the next table. This is a nice, strong 
 
 Apparently it is impossible to change the direction of the air flow. I feel the air freeze drying my eyes. My hands are getting uncomfortably cold. Dry and cold. Am I dead? Am I dying? Oh, I get it - this is AC. Usually the AC openings can be directed or partially closed. Not in this case. Should I cover the outlets with nylon? Should I wear a full face motorcycle helmet and winter gloves? Good distribution of the cold air is tricky and expensive to do. The installation reminds me walkin coolers and London tube. Meanwhile a hood almost saves the day.
 
+I would divide the space into cold, warm, hot areas with temperatures stepping by 2 degrees. This way people would be able to sit in the most comfortable zone.
+
 Is it possible to push the air along the walls? 
 
 # Open plan
