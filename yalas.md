@@ -18,3 +18,7 @@ The goals of the system:
 *  Recognize debugger like behaviour
 *  Detect attempts of memory spray, attempts of exploit zero-day Linux kernel vulnerabilities.
 *  Fingerprinting, analyzing and comparison of applications behaviour. 
+
+
+Links
+* https://www4.comp.polyu.edu.hk/~csxluo/DNSINFOCOM18.pdf
