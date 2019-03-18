@@ -23,6 +23,22 @@ The goals of the system:
 Links
 * https://www4.comp.polyu.edu.hk/~csxluo/DNSINFOCOM18.pdf
 
+Typical performance impact 
+
+```
+Tasks: 209 total,   1 running, 177 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.3 us,  2.3 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  4039720 total,   712948 free,  1624896 used,  1701876 buff/cache
+KiB Swap:  1505860 total,  1505860 free,        0 used.  2040324 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                                                                                                                                  
+20838 arkady    20   0 1586876 166508 124400 S 26.2  4.1  27:57.94 Web Content                                                                                                                              
+20700 arkady    20   0 1918064 264324 140936 S  8.6  6.5   9:31.50 firefox                                                                                                                                  
+ 5858 root      rt   0  341060 178384 134264 S  1.7  4.4   0:05.74 yalas   <------ This is YALAS                                                                                                                                 
+ 1101 arkady    20   0  542288 175092 101536 S  1.3  4.3   5:04.75 Xorg                                                                                                                                     
+ 1270 arkady    20   0 3080488 375120 127000 S  0.7  9.3   8:17.36 gnome-shell                                                                                                                              
+```
+
 
 Example of the driver stats
 
@@ -75,18 +91,3 @@ never                                 0 timer.ms                         236531 
 timer.jiffies                4297103664 
 ```
 
-Typical performance impact 
-
-```
-Tasks: 209 total,   1 running, 177 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 15.3 us,  2.3 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem :  4039720 total,   712948 free,  1624896 used,  1701876 buff/cache
-KiB Swap:  1505860 total,  1505860 free,        0 used.  2040324 avail Mem 
-
-  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                                                                                                                                  
-20838 arkady    20   0 1586876 166508 124400 S 26.2  4.1  27:57.94 Web Content                                                                                                                              
-20700 arkady    20   0 1918064 264324 140936 S  8.6  6.5   9:31.50 firefox                                                                                                                                  
- 5858 root      rt   0  341060 178384 134264 S  1.7  4.4   0:05.74 yalas   <------ This is YALAS                                                                                                                                 
- 1101 arkady    20   0  542288 175092 101536 S  1.3  4.3   5:04.75 Xorg                                                                                                                                     
- 1270 arkady    20   0 3080488 375120 127000 S  0.7  9.3   8:17.36 gnome-shell                                                                                                                              
-```
