@@ -40,7 +40,7 @@ KiB Swap:  1505860 total,  1505860 free,        0 used.  2040324 avail Mem
 ```
 
 
-Example of the driver stats
+A sample of the driver stats
 
 ```
 incidents                      43082075 bytes_total                  3640989272 socket.create.return                830
