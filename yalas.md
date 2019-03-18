@@ -78,17 +78,15 @@ timer.jiffies                4297103664
 Typical performance impact 
 
 ```
-Tasks: 210 total,   2 running, 178 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 32.0 us, 62.3 sy,  0.0 ni,  5.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem :  4039720 total,   721364 free,  1626136 used,  1692220 buff/cache
-KiB Swap:  1505860 total,  1505860 free,        0 used.  2039220 avail Mem 
+Tasks: 209 total,   1 running, 177 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 15.3 us,  2.3 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  4039720 total,   712948 free,  1624896 used,  1701876 buff/cache
+KiB Swap:  1505860 total,  1505860 free,        0 used.  2040324 avail Mem 
 
   PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                                                                                                                                  
-20838 arkady    20   0 1586876 166084 124400 S 14.6  4.1  26:41.07 Web Content                                                                                                                              
- 1945 arkady    20   0  836512  50772  31252 S 13.2  1.3   1:34.84 gnome-terminal-                                                                                                                          
-20700 arkady    20   0 1918064 263592 140936 S  5.0  6.5   9:04.62 firefox                                                                                                                                  
- 1270 arkady    20   0 3080488 375632 127000 S  2.0  9.3   7:38.64 gnome-shell                                                                                                                              
- 1101 arkady    20   0  542160 175092 101536 S  1.7  4.3   4:41.84 Xorg                                                                                                                                     
- 3219 root      20   0       0      0      0 I  1.7  0.0   0:00.81 kworker/u2:0                                                                                                                             
- 5858 root      rt   0  341060 178384 134264 S  1.3  4.4   0:00.77 yalas        <------ This is YALAS                                                                                                                            
+20838 arkady    20   0 1586876 166508 124400 S 26.2  4.1  27:57.94 Web Content                                                                                                                              
+20700 arkady    20   0 1918064 264324 140936 S  8.6  6.5   9:31.50 firefox                                                                                                                                  
+ 5858 root      rt   0  341060 178384 134264 S  1.7  4.4   0:05.74 yalas   <------ This is YALAS                                                                                                                                 
+ 1101 arkady    20   0  542288 175092 101536 S  1.3  4.3   5:04.75 Xorg                                                                                                                                     
+ 1270 arkady    20   0 3080488 375120 127000 S  0.7  9.3   8:17.36 gnome-shell                                                                                                                              
 ```
