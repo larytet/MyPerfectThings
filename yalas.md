@@ -23,7 +23,7 @@ The goals of the system:
 Links
 * https://www4.comp.polyu.edu.hk/~csxluo/DNSINFOCOM18.pdf
 
-Typical performance impact 
+Typical performance impact (single core VM) 
 
 ```
 Tasks: 209 total,   1 running, 177 sleeping,   0 stopped,   0 zombie
