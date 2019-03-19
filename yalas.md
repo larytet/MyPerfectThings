@@ -26,17 +26,18 @@ Links
 Typical performance impact (single core VM) 
 
 ```
-Tasks: 209 total,   1 running, 177 sleeping,   0 stopped,   0 zombie
-%Cpu(s): 15.3 us,  2.3 sy,  0.0 ni, 82.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
-KiB Mem :  4039720 total,   712948 free,  1624896 used,  1701876 buff/cache
-KiB Swap:  1505860 total,  1505860 free,        0 used.  2040324 avail Mem 
+Tasks: 223 total,   1 running, 190 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  3.4 us,  3.1 sy,  0.0 ni, 93.5 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+KiB Mem :  4039720 total,   514340 free,  1766684 used,  1758696 buff/cache
+KiB Swap:  1505860 total,  1505860 free,        0 used.  1908960 avail Mem 
 
   PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND                                                                                                                                  
-20838 arkady    20   0 1586876 166508 124400 S 26.2  4.1  27:57.94 Web Content                                                                                                                              
-20700 arkady    20   0 1918064 264324 140936 S  8.6  6.5   9:31.50 firefox                                                                                                                                  
- 5858 root      rt   0  341060 178384 134264 S  1.7  4.4   0:05.74 yalas   <------ This is YALAS                                                                                                                                 
- 1101 arkady    20   0  542288 175092 101536 S  1.3  4.3   5:04.75 Xorg                                                                                                                                     
- 1270 arkady    20   0 3080488 375120 127000 S  0.7  9.3   8:17.36 gnome-shell                                                                                                                              
+20700 arkady    20   0 1914484 251484 121416 S  5.3  6.2 106:15.68 firefox                                                                                                                                  
+ 1270 arkady    20   0 3080504 333312  84412 S  3.6  8.3   9:40.31 gnome-shell                                                                                                                              
+ 1101 arkady    20   0  545680 156048  82492 S  2.6  3.9  16:49.05 Xorg                                                                                                                                     
+ 1945 arkady    20   0  837280  49892  30032 S  1.6  1.2   2:02.64 gnome-terminal-                                                                                                                          
+26931 root      rt   0  341216  67556  23176 S  1.6  1.7   0:01.12 yalas   <------ This is YALAS                                                                                                                                 
+26943 arkady    20   0   49028   3816   3064 R  1.3  0.1   0:00.08 top                                                                                                                                      
 ```
 
 
