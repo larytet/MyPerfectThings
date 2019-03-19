@@ -18,6 +18,7 @@ The goals of the system:
 *  Recognize debugger like behaviour.
 *  Detect attempts of memory spray, attempts of exploit zero-day Linux kernel vulnerabilities.
 *  Fingerprinting, analyzing and comparison of applications behaviour.
+*  Monitor containers and VMs peformance.
 
 
 
