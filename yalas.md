@@ -9,7 +9,7 @@ The goals of the system:
 *  Advanced debug and monitor infrastructure.
 *  Collect the system information, filter and aggregate the information, compress it, deliver to an application for further processing. The design targets approximately 1:1000 reduction of the total amount of information. 
 *  Support collection of the patterns of I/O requests, network access - applications fingerprints..  
-*  Simple deploy, install, update flow.
+*  Simple deploy, install, update flow. Universal support of the existing Linux distributions and kernels.
  
 
 # Applications
