@@ -3,7 +3,7 @@ Yet Another Linux Audit System
 The goals of the system:
 
 *  Collect critical system information - writing to files, modification of system files, sending data to the outside world, shared memory operations, TTY logging, follow process execution chains 
-*  The design attempts to minimise the performance impact. The code targets system calls latency impact under 5 micro in the worst case and under 1 micro  in the typical case or about 10% of the overall system performance. On heavily loaded 16 core HTTP server the driver consumes  roughly an equivalent of one core.
+*  The design attempts to minimise the performance impact. The code targets system calls latency impact under 5 micro in the worst case and under 1 micro  in the typical case or about 10% of the overall system performance. On a heavily loaded 16 core HTTP server performing lot of system calls the driver consumes  roughly an equivalent of one core.
 *  Zero-copy communication between kernel and user space
 *  Binary protocol between application and the driver
 *  Advanced debug and monitor infrastructure
