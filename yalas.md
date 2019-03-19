@@ -20,8 +20,6 @@ The goals of the system:
 *  Fingerprinting, analyzing and comparison of applications behaviour.
 
 
-Links
-* https://www4.comp.polyu.edu.hk/~csxluo/DNSINFOCOM18.pdf
 
 Typical performance impact (single core VM) 
 
@@ -92,3 +90,5 @@ never                                 0 timer.ms                         236531 
 timer.jiffies                4297103664 
 ```
 
+Links
+* https://www4.comp.polyu.edu.hk/~csxluo/DNSINFOCOM18.pdf
