@@ -30,6 +30,8 @@ This project rasied 350K https://www.kickstarter.com/projects/491835187/crosshel
 
 https://crosshelmet.com 
 
+https://www.kickstarter.com/projects/hudway/hudway-sight-a-display-for-every-helmet
+
 Links
 
 * https://www.tomshardware.com/news/Gorilla-Glass-Corning-Flexible-Glass-Curved-Glass-Willow-Glass,15879.html 
