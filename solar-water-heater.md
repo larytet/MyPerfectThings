@@ -8,3 +8,7 @@ My Perfect Solar Water Heater
 * Insert an "umbrella" into the heater and separate the top 3rd from the rest of the heater. Ensure that there is a small hole in the top of the umbrella.
 * Use "slapping" (sound) device to conduct current temperature from the inside of the hearter to the outside sensor.
 
+
+Links 
+* https://www.youtube.com/watch?v=mmt8DIrLMYc
+
