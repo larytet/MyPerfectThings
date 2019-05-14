@@ -11,4 +11,5 @@ My Perfect Solar Water Heater
 
 Links 
 * https://www.youtube.com/watch?v=mmt8DIrLMYc   bimetallic Jumping disc 
- 
+* https://en.wikipedia.org/wiki/Magnetostriction
+* 
