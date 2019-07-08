@@ -12,4 +12,4 @@ My Perfect Solar Water Heater
 Links 
 * https://www.youtube.com/watch?v=mmt8DIrLMYc   bimetallic Jumping disc 
 * https://en.wikipedia.org/wiki/Magnetostriction
-* http://www.pakahom.com/ - they inist that there is a patent. I recall that at least one construction company (in Netanya?) about 20 years ago installed a solenoid valve(s) in their project.
+* http://www.pakahom.com/ - they inist that there is a patent. I recall that at least one construction company (in Netanya?) about 20 years ago installed a solenoid valve(s) in their project. Around 2005 I installed a normally closed valve in my home in Kfar Yona. I started by using the timer to control the valve. In the I opened the valve when I turned the electric heater off. There is also a project I did at Netanya Academic College around 2005-2010. I doubt that a patent is enforceable.
