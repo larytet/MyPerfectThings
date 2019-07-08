@@ -12,4 +12,4 @@ My Perfect Solar Water Heater
 Links 
 * https://www.youtube.com/watch?v=mmt8DIrLMYc   bimetallic Jumping disc 
 * https://en.wikipedia.org/wiki/Magnetostriction
-* 
+* http://www.pakahom.com/ - they inist that there is a patent. I recall that at least one construction company (in Netanya?) about 20 years ago installed a solenoid valve(s) in their project.
