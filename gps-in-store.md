@@ -17,4 +17,6 @@ upload the location to the cloud. The data collected in the cloud can be used to
 *  Google, Microsoft provide indoor maps 
 *  A British company Pointr - https://www.ft.com/content/f428c16e-1dcb-11e6-a7bc-ee846770ec15
 * http://www.ledsmagazine.com/articles/2017/10/target-gives-the-go-ahead-on-iot-lights-at-half-its-stores.html
-* https://www.oriient.me/
+* https://www.oriient.me/ (magnetic fields?)
+* https://en.wikipedia.org/wiki/Magnetic_positioning
+* https://www.indooratlas.com/positioning-technology/
