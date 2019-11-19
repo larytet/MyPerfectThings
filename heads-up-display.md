@@ -32,7 +32,7 @@ https://crosshelmet.com
 
 https://www.kickstarter.com/projects/hudway/hudway-sight-a-display-for-every-helmet
 
-This one is a failed attempt targeting cycling https://youtu.be/Gw38xQTbX6E?t=539
+This one is a failed attempt targeting cycling from Recon JET https://youtu.be/Gw38xQTbX6E?t=539
 Links
 
 * https://www.tomshardware.com/news/Gorilla-Glass-Corning-Flexible-Glass-Curved-Glass-Willow-Glass,15879.html 
