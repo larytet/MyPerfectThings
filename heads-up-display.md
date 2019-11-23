@@ -38,6 +38,7 @@ Links
 * https://www.tomshardware.com/news/Gorilla-Glass-Corning-Flexible-Glass-Curved-Glass-Willow-Glass,15879.html 
 * http://qr.ae/TUGgFS 
 
+Sony Sony SmartEyeglass https://developer.sony.com/develop/smarteyeglass-sed-e1/
 
 
 See also "holographic optical elements" and heads up automobile display using holographic optical elements on windshield
