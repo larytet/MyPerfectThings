@@ -4,3 +4,9 @@
 * Move engine closer to the head and reduce power and noise (a power head which does not break in 2 months).
 * Floor washing - spray water&soap, wash the floor, dry the floor 
 * The head of the vaccum cleaner has a cadence/acceleraiton sensor. On a move forward the head turns OFF the suction (reduces the air flow), sprays the cleaning fluid on the rotating brushes. When  moving backward the head stops the spray, increases the air flow.     
+
+Products targetting households:
+
+* Bissell Crosswave Pet Pro 
+* Hizero 
+* Tineco Ifloor
