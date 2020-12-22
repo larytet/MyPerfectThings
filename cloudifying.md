@@ -6,7 +6,7 @@ I think that a relatively small refactoring of the code could lead to better uti
 * Generic approach 
 * Multiple programming languages
 
-Target market: large legacy software products. 
+The target market is large legacy software products, mainly in-house applications which could benefit from moving to the cloud. Some examples: financial sector, public services.
 
 Existing solutions:
 * https://www.vfunction.com/
