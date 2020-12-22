@@ -10,4 +10,5 @@ The target market is large legacy software products, mainly in-house application
 
 Existing solutions:
 * https://www.vfunction.com/
+* https://www.openlegacy.com/  (SAP?)
 
