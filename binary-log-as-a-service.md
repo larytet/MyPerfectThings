@@ -13,10 +13,10 @@ The data compression phase, if supported, is not zero cost. For example, the IoT
 Based on https://github.com/larytet/binlog/ for example,
 
 * Collect binary logs
-* Generate schemas, index on the fly
-* Store the log in the ElastiSearch/CouchDB
+* Use standard serialization like Protobuf, flatbuffers, Cap’n Proto, etc
+* Generate schemas, index the log entries on the fly
+* Store the log in the ElastiSearch/CouchDB/etc
 * Add server side script converting the logs into a human readable format
-* Use standard serialization like Protobuf, Cap’n Proto, etc
 
 *Applications*
 
