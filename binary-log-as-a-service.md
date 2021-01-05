@@ -29,3 +29,5 @@ Based on https://github.com/larytet/binlog/ for example,
 *Links*
 
 * https://www.baryudin.com/blog/entry/binary-self-contained-logs-modern-high-throughput-systems/
+* https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/
+* https://engineering.fb.com/2017/08/31/core-data/logdevice-a-distributed-data-store-for-logs/
