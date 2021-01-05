@@ -25,6 +25,6 @@ Based on https://github.com/larytet/binlog/ for example,
 * Kernel code
 
 
-Links
+*Links*
 
 * https://www.baryudin.com/blog/entry/binary-self-contained-logs-modern-high-throughput-systems/
