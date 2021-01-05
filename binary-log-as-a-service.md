@@ -5,6 +5,13 @@ Based on https://github.com/larytet/binlog/ for example,
 * Store the log in the ElastiSearch/CouchDB
 * Add server side script converting the logs into a human readable format
 
+Applications
+
+* IoT world
+* Automation
+* High performance WEB applications
+* Kernel code
+
 
 Links
 
