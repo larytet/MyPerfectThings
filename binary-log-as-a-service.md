@@ -4,7 +4,7 @@ Binary log can reduce I/O load and save CPU in the application. Both generation 
 Depending on the architecture binary log can reduce the amount of "events" needed to be processed by the log processing pipeline. Aggregation, filtering, deduplication, grouping - these operations are getting easier. 
 
 
-The data compression phase, if supported, is not zero cost. I think that in the IoT world there is a case for generating and collecting binary logs. 
+The data compression phase, if supported, is not zero cost. For example, the IoT world there is a case for generating and collecting binary logs. 
 
 
 We developers want to collect as much of debug data as possible, keep the collected logs infinitely. We rarely if ever view the collected data, but we insist on the real-time 24/7 access to the collected logs. This set of requirements creates a challenge for devops teams leading to expensive solutions like logz.io, vastdata, etc . Binary logs can address these requirements by reducing the storage needs, simplifying the processing, enforcing logging discipline in the source code. 
