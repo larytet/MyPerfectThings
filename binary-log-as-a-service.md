@@ -16,6 +16,7 @@ Based on https://github.com/larytet/binlog/ for example,
 * Generate schemas, index on the fly
 * Store the log in the ElastiSearch/CouchDB
 * Add server side script converting the logs into a human readable format
+* Use standard serialization like Protobuf, Cap’n Proto, etc
 
 *Applications*
 
