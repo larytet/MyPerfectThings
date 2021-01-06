@@ -4,9 +4,9 @@ Imagine a client encrypts the data in the way that a DB still can index the data
 * Easy integration with popular programming languages - Java, Go, Python
 
 
-DB gets the key as part of the transaction,(the key is one time only? how it can be done?). The hard encryption (like AES) requires a unique key - each time another one.
+DB gets the key as part of the transaction (the key is one time only? how it can be done?). The hard encryption (like AES) requires a unique key - each time another one.
 DB opens the harder outer encryption and gets access to the second, weaker layer. The second layer is a simple cypher supporting search, string compare.
-After the transaction completed the key is done and useless. Client changes salting in the DB after every transaction.
+After the transaction completed the key is done and useless. Client changes salting in the DB after every transaction (how indexing can work?).
 
 One interesting question is if there is a cypher allowing to replace the decryption key by modifying only a small part of the data
 Imagine a JPEG. Without master the frame it is between hard to impossible to understand the movie.
