@@ -1,4 +1,4 @@
-Imagine a client encrypts the data in the way that a DB still can index the data. The client gains end-to-end encryption can fully trust a DB in the cloud.
+Imagine a client encrypts the data in the way that a DB still can index the data. The client gains end-to-end encryption and can fully trust a DB in the cloud.
 
 * Open source
 * Easy integration with popular programming languages - Java, Go, Python
