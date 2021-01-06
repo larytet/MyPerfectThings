@@ -1,8 +1,12 @@
+
 Imagine a client encrypts the data in the way that a DB still can index the data. The client gains end-to-end encryption and can fully trust a DB in the cloud.
+
+*Baseline requirements*
 
 * Open source
 * Easy integration with popular programming languages - Java, Go, Python
 
+*Details*
 
 DB gets the key as part of the transaction (the key is one time only? how it can be done?). The hard encryption (like AES) requires a unique key - each time another one.
 DB opens the harder outer encryption and gets access to the second, weaker layer. The second layer is a simple cypher supporting search, string compare.
@@ -23,5 +27,7 @@ The problem boils down to the limitations we are willing to accept in the DB API
 * Two encyption layers. A wekaer encryotion layer still presents a challenge for a hacker, but indexing is faster.
 * etc
 
-Existing solutions
+
+*Links*
+
 * https://baffle.io/
