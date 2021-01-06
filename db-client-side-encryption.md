@@ -16,5 +16,12 @@ Another approach - keep half of the data in one DB and another half in another D
 
 Another solution: hack the storage. Storage can decrypt the data on the go assuming the DB has a valid token. DB has access to the decrypted block. Next time the DB needs the block it should have an access token. This can be slow depending on the token expiration time.
 
+The problem boils down to the constraints we are have in the DB API and cryptology. 
+
+* DB can implicitly require the client to decrypt each and every record. The strongest protection and the worst performance. 
+* DB can allow the client to load a server side script decrypting the records. Better performance, DB has an access to the decryptin key
+* Two encyption layers. A wekaer encryotion layer still presents a challenge for a hacker, but indexing is faster.
+* etc
+
 Existing solutions
 * https://baffle.io/
