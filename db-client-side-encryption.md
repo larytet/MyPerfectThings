@@ -1,5 +1,5 @@
 
-Imagine a client encrypts the data in the way that a DB still can index the data. The client gains end-to-end encryption and can fully trust a DB in the cloud.
+Imagine a client encrypting the data in the way that a DB can still index the data. The client gains end-to-end encryption and can fully trust a DB in the cloud.
 
 *Baseline requirements*
 
