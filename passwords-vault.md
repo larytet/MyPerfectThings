@@ -21,4 +21,4 @@ Alternatives:
 *  Cryptosteel ($99)
 * Google's  Titan Key ($50?)
 * https://www.passwordcard.org
-* ring/touchpad from padron.design 
+* ring/touchpad (Padrone ring) from padron.design 
