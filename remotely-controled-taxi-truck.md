@@ -28,7 +28,7 @@ Becasue the network is not scaling well realistic possibilities are:
 
 ## Drivers environment 
 
-* How to provide **tactile feedback** to the driver? For example, gear switch related vibration (the transmission is not ideally smooth), the engine noise, the vehicle inclination, turn signal clicking - all should be collected and delivered.
+* How to provide **tactile feedback** to the driver? For example, gear switch related vibration (the transmission is not ideally smooth), the engine noise, the vehicle inclination, turn signal clicking, the steering wheel feedback - all should be collected and delivered.
 * This is not a computer game or training. How to keep the remote driver focused and motivated?
 
 ## Taxi
