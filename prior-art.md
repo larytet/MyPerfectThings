@@ -61,3 +61,38 @@ The destination port is a unique combination of ports from a predefined range of
  The service can indentify the process which issued the TCP connection requests. The service can link between the TCP ports and  processes. The service decodes the range of IP addresses and ports into the original information
  
  The service can allocate multiple ports ranges. This allows the system to add redundancy. The service can tolerate  failure to bind some of the ports in some of the ranges. For example, originally I decide to use combinations of 4 ports from 50 ports. I have 230K unqiue 4 ports combinations. I choose a 5 ports combination (0, 1, 2, 3, 4). I allow any of 4 ports combinations of these 5 ports (0, 1, 2, 3), (0, 1, 2, 4), (0, 1, 3, 4), (0, 2, 3, 4), (1, 2, 3, 4). In this case I have 20% redundancy. If I failed to bind a port 0 there is a combination (1, 2, 3, 4) which will still work.
+ 
+ 
+ 
+Phishing recognition
+
+When you click a link on a phishing page you are driven by the image matching your brain performs. You do not really read the text there. You just catch colors and general form and size of the letters. Image recognition in the brain is performed by ~500 neurons. The brain in the first sweep does not process a whole lot of information. On the first sweep only few neurons in the brain are firing. This is the moment when the brain sends an impulse to the hand to click the button. APOLLO-2889/MARS-940 is about it - collecting and enumerating the visual information.
+
+The first phase of the suggested "image recognition" process compares only color palettes. The benefit is that the first stage - matching the image against the dictionary - can be done very fast.
+This approach can be patentable as well even if it does not work well for us.
+
+
+Possible approaches
+
+    Compare color palette (not used in the existing flow), promising
+    OCR the images, compare the text (in use)
+    Fuzzy hashes (in use)
+
+Next step is to try to combine the color palette matching and OCR of the image. Take into consideration the font size
+
+    Try to improve weighting of the area occupied by a specific color. At this point the code calculates the area, but ignores the area when calculating the distance between color palettes. So far considering the area did not work well.
+    Detect large font text in the image (text detection is the first phase of OCR), run color palette matching only for the text areas (think about white on blue OneDrive letters). Appears working well. This is probably patentable.
+    Use a WEB page renderer for converting the mail into an image. Run image matching.
+    Run ssim/ssdeep only for areas containing text (output of the text detection engine, like EAST)
+    Before running ssim/ssdeep convert the image to monochrome.
+    Do login pages have lower entropy than an average WEB site? Calculation of entropy is fast, can be performed in parallel with any other processing.
+
+Links
+
+    https://developpaper.com/opencv-ocr-and-text-recognition-with-tesseract/ and https://developpaper.com/opencv-text-detection/ Original link https://www.pyimagesearch.com/2018/08/20/opencv-text-detection-east-text-detector/
+    https://www.pyimagesearch.com/2018/09/17/opencv-ocr-and-text-recognition-with-tesseract/
+    https://medium.com/datadriveninvestor/review-for-tesseract-and-kraken-ocr-for-text-recognition-2e63c2adedd0
+    https://medium.com/saarthi-ai/how-to-build-your-own-ocr-a5bb91b622ba
+    https://nanonets.com/blog/deep-learning-ocr/
+    https://www.pyimagesearch.com/2018/05/28/ubuntu-18-04-how-to-install-opencv/
+    https://www.syncwithtech.org/obtain-text-from-images-using-google-photos/
