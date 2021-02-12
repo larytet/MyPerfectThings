@@ -66,10 +66,9 @@ The destination port is a unique combination of ports from a predefined range of
  
 Phishing recognition
 
-When you click a link on a phishing page you are driven by the image matching your brain performs. You do not really read the text there. You just catch colors and general form and size of the letters. Image recognition in the brain is performed by ~500 neurons. The brain in the first sweep does not process a whole lot of information. On the first sweep only few neurons in the brain are firing. This is the moment when the brain sends an impulse to the hand to click the button. APOLLO-2889/MARS-940 is about it - collecting and enumerating the visual information.
+When you click a link on a phishing page you are driven by the image matching your brain performs. You do not really read the text there. You just catch colors and general form and size of the letters. Image recognition in the brain is performed by ~500 neurons. The brain in the first sweep does not process a whole lot of information. On the first sweep only few neurons in the brain are firing. This is the moment when the brain sends an impulse to the hand to click the button.
 
 The first phase of the suggested "image recognition" process compares only color palettes. The benefit is that the first stage - matching the image against the dictionary - can be done very fast.
-This approach can be patentable as well even if it does not work well for us.
 
 
 Possible approaches
