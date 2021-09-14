@@ -31,3 +31,4 @@ The problem boils down to the limitations we are willing to accept in the DB API
 *Links*
 
 * https://baffle.io/
+* https://en.wikipedia.org/wiki/Homomorphic_encryption
