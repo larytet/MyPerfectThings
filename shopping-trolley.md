@@ -8,3 +8,4 @@ There are producers out there who attempt to redefine a trolley  - see, for exam
 The existing trolleys are clunky, not reliable things. The market is highly fragmented. A large company with 
 two or three well positioned products can conquer the market completely. 
 
+A high end trolley is a an electric scooter capable of following the ower, keeping balance under not well distributed load.
