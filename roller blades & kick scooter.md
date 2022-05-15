@@ -1,4 +1,4 @@
-Going uphill is tough. Gradient more than 15 degree on a hot summer day turns a joyful gliding into hard work on the verge of impossible.
+Going uphill is tough. Gradient more than 15 degree on a hot summer day turns a joyful gliding into a hard work on the verge of impossible.
 
 My perfect roller blades have one electric wheel, small battery, accelerometers and CPU. The roller blades can sense the gradient, what leg is doing a push, at what angle, and what wheel has traction. At exact the right moment the CPU triggers  5% or 10% acceleration depending the gradient. 
 
