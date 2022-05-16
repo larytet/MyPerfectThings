@@ -11,7 +11,7 @@ How to flag a car with stuff in the trunk?  (this is where data mining and AI ki
 *  Antenna arrays
 *  Sound/ultrasound
 *  Put the car on a platform, move the platform watch how the car structure responds (wobbles)
-*  
+*  Carefully analyzing the car vibrations, tire pressure we can estimate the weight of the car and the weight distribution.
 
 UWB
 
