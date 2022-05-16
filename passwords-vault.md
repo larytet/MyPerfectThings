@@ -13,6 +13,9 @@ Theoretical complexity of a wallet password:
 *  number of strokes in a ring segment
 *  tap or brush
 *  8 segments for the strokes
+*  variations of tempo
+*  what finger the ring is on
+*  3D position of the hand
 
 
 Alternatives:
