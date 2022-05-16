@@ -16,7 +16,7 @@ In my case this is a fairly large, completely open space without any screens. Th
 
 # A patio
 
-There is a small open sky patio in the middle of the office. I estimate the April temperatures exceed 30C degrees. There is a heap of puffs on the patio waiting for the winter rains. It is not an easy choice between the patio and the AC inside. The life is void of easy choices.
+There is a small open sky patio in the middle of the office. I estimate the April temperatures exceed 30C degrees. There is a heap of puffs on the patio waiting for the winter rains. Am I going to the patio and spend the day with the AC inside? The life is void of easy choices.
 
 
 
