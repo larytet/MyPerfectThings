@@ -10,7 +10,7 @@ We can add an initial handshake as well where users identify themselves using un
 
 Such service will be very hard to block.
 
-Business model is not clear. May be playing ads before/after a message? Or showing ads in the application itself?
+Business model is not clear. May be playing ads before/after a message? Or showing ads in the application itself? Or donations from large organizations promoring freedom of speach?
 
 * List of popular chat clients https://www.recode.net/2017/4/15/15297316/apps-whatsapp-signal-imessage-hacking-hackers-messages-privacy
 * A similar idea https://silence.im/
