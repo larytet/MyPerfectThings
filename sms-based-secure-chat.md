@@ -18,7 +18,7 @@ Bounties?
 We can sell addons like wallets, e-mail application
 With a little effort we can generate syntactically correct sentences in any language 
 
-in yet another approach we can use actual phone calls to deliver the information. A user sends knocking first to notify that a special phone call is coming. After that the user establishes the phone call and sends the encrypted data like a facsimile. A network of interconnected devices can allow reasonably anonymous distribution of the content betwen nodes. 
+in yet another approach we can use actual phone calls to deliver the information. A user sends knocking first to notify that a special phone call is coming. After that the user establishes the second call and sends the encrypted data like a facsimile. A network of interconnected devices can allow reasonably anonymous distribution of the content betwen nodes. 
 
 
 According to https://en.wikipedia.org/wiki/Signal_(software) they got 30M funding
