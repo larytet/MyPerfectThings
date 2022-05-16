@@ -11,7 +11,7 @@ We can add an initial handshake as well where user identify themselves using uni
 
 
 Business model wise? I have no idea
-Telegram apparently makes lot of money
+Telegram apparently makes a lot of money
 Will look great in the CV
 Donatoons?
 Bounties?
