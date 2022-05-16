@@ -1,4 +1,4 @@
-HTTP/HTTPS Proxy running on top of a distribute tcp/ip stack.
+HTTP/HTTPS Proxy running on top of a distributed tcp/ip stack.
 The goal is to ensure delivery of all packets even if a few nodes go down, get restarted.
 
 
@@ -7,3 +7,4 @@ The goal is to ensure delivery of all packets even if a few nodes go down, get r
 * https://github.com/fpgasystems/fpga-network-stack
 * https://netfpga.org/
 * http://popcornlinux.org/
+* DriveNets ?
