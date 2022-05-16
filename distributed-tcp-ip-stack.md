@@ -1,5 +1,5 @@
 HTTP/HTTPS Proxy running on top of a distributed tcp/ip stack.
-The goal is to ensure delivery of all packets even if a few nodes go down, get restarted.
+The goal is to ensure delivery of all packets even if a few nodes go down, get restarted. Another benefit is a high performance IP stack w/o a dedicated expensive hardware.
 
 
 * https://www.ssrg.ece.vt.edu/papers/2017_icdcs_netpopcorn.pdf
