@@ -10,7 +10,9 @@ We can add an initial handshake as well where users identify themselves using un
 
 Such service will be very hard to block.
 
+Business model is not clear. May be playing ads before/after a message? Or showing ads in the application itself?
+
 * List of popular chat clients https://www.recode.net/2017/4/15/15297316/apps-whatsapp-signal-imessage-hacking-hackers-messages-privacy
-* Very similar idea https://silence.im/
+* A similar idea https://silence.im/
 * Privacy and Data Protection in Smartphone Messengers https://www.sba-research.org/wp-content/uploads/publications/paper_drafthp.pdf 
 *  More history about SMS encryption http://www.wikiwand.com/en/TextSecure
