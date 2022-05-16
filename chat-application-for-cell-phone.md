@@ -4,7 +4,7 @@ We can transform text messages to readable SMS messages with actual English word
 
 The transform itself can be trivial. A user generates a dictionary which maps all possible trigrams to English words. The dictionary ~2.5MB and every endpoint will have to store a map for every connection
 
-In yet another approach we can use actual phone calls to deliver the information. A user sends knocking first to notify that a special phone call is coming. After that the user establishes the phone call and sends the encrypted data like a facsimile 
+In yet another approach we can use actual phone calls to deliver the information. A user sends knocking first to notify that a special phone call is coming. After that the user establishes the second call and sends the encrypted data like a facsimile 
 
 We can add an initial handshake as well where users identify themselves using unique avatars delivered by SMS
 
