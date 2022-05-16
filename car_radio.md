@@ -16,9 +16,9 @@ My perfect car radio
 
 Business model - sell to a large car maker or radio station,
 
+Comments/reactions:
 
 For no ads, it’d be impossible since indiv channels have their own ads and you'd have to work with every channel which CBS and others are directly opposed to.
-
 For radio, same thing happens. Idk channels but Id suspect it'd cost $20 per month extra. Maybe $30. It'd easily be $10 per month if they all worked together but that wouldn't happen.
 
 
