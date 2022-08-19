@@ -8,5 +8,5 @@
 * Wide and low is better that narrow and high
 * Contains grinder for food remains. First washing cycle can be collected in a separate bin. 
 * Self cleaning
-* Apparently not all dishwashers can report that there is no salt remains (Sauter 1007, for example).
+* Apparently not all dishwashers can reliably report that there is no salt remains (Sauter 1007, for example).
 
