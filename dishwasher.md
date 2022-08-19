@@ -9,6 +9,8 @@
 * Contains grinder for food remains. First washing cycle can be collected in a separate bin. 
 * Self cleaning
 * Apparently not all dishwashers can reliably report that there is no salt remains (Sauter 1007, for example).
+* Project a colored light on the floor to indicate whether dishes are clean or not.
+* 
 
 Links
 
