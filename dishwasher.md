@@ -10,3 +10,6 @@
 * Self cleaning
 * Apparently not all dishwashers can reliably report that there is no salt remains (Sauter 1007, for example).
 
+Links
+
+* https://www.housebeautiful.com/design-inspiration/home-makeovers/a25462393/two-dishwasher-kitchen-ideas/
