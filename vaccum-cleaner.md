@@ -10,3 +10,5 @@ Products targetting households:
 * Bissell Crosswave Pet Pro 
 * Hizero 
 * Tineco Ifloor
+* http://lavorpro.co.uk/products/walk-behind-floor-scrubber-driers/?&SingleProduct=69
+* http://lavorpro.co.uk/products/walk-behind-floor-scrubber-driers/?&SingleProduct=68
