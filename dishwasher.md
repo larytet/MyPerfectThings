@@ -15,6 +15,6 @@
 Links
 
 * https://www.housebeautiful.com/design-inspiration/home-makeovers/a25462393/two-dishwasher-kitchen-ideas/
-* Integrated Double DishDrawer™ Dishwasher
+* Fisher&Paykel Integrated Double DishDrawer™ Dishwasher
 * Dishwasher magnet https://www.aliexpress.com/item/1005004262648488.html
 * 
