@@ -11,4 +11,4 @@ Products targetting households:
 * Hizero 
 * Tineco Ifloor
 * http://lavorpro.co.uk/products/walk-behind-floor-scrubber-driers/?&SingleProduct=69
-* http://lavorpro.co.uk/products/walk-behind-floor-scrubber-driers/?&SingleProduct=68
+* Lavor Crystal Clean http://lavorpro.co.uk/products/walk-behind-floor-scrubber-driers/?&SingleProduct=68
