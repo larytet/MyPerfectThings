@@ -37,6 +37,7 @@ Links
 
 * https://www.tomshardware.com/news/Gorilla-Glass-Corning-Flexible-Glass-Curved-Glass-Willow-Glass,15879.html 
 * http://qr.ae/TUGgFS 
+* https://www.youtube.com/watch?v=IiACV0Ly4j4
 
 Sony Sony SmartEyeglass https://developer.sony.com/develop/smarteyeglass-sed-e1/
 
