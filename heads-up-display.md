@@ -15,7 +15,7 @@ Some of the features:
 
 * Image stabilization
 * automatic zoom for maps 
-* heptic feedback from the navigation software. 
+* haptic feedback from the navigation software. 
 * Intelligent indication of a busy lane when switching lanes
 * Indication of vehicles approaching or on collision course
 * Smart FM radio with ad block, quick channel swicthing, automatic channel switching between zones
