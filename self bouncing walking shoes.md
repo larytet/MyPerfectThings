@@ -4,6 +4,8 @@ Mechanical running shoes contain a spring and have electromagnetic assistance. O
 forms a magnetic field tighting the spring attached to the bottom of the shoes. When the shoes touches the
 ground the assistant releases the spring. The spring bounces off the ground pushing the foot up. 
 
+![Bouncing running shoes](resources/bouncing-shoes.jpg)
+
 The goal is faster walking at cost of a bit less of balance. Every step ends up as a small jump thanks to 
 the releasing spring.
 
