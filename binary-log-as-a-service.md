@@ -1,32 +1,34 @@
-*Intro*
+# Introduction
 
-We developers want to collect more debug data than possible, keep the collected logs indefinitely. We rarely if ever view the collected data, but we insist on the real-time 24/7 access to the collected logs. This set of requirements creates a challenge for devops teams leading to expensive solutions like logz.io, vastdata, etc . Binary logs can address these requirements by reducing the storage needs, simplifying the processing, enforcing logging discipline in the source code. 
+As developers, we often want to collect more debug data than we need and keep it indefinitely, while rarely ever viewing the collected logs. This creates a challenge for devops teams, leading to expensive solutions such as logz.io and vastdata. However, binary logs can address these requirements by reducing storage needs, simplifying processing, and enforcing logging discipline in the source code.
 
-Binary log can reduce I/O load and save CPU in the application. Both generation and  output of the binary log can be significantly cheaper. 
+Binary logs can also reduce I/O load and save CPU in the application, as both the generation and output of the binary log can be significantly cheaper. Depending on the architecture, binary logs can reduce the number of "events" needed to be processed by the log processing pipeline. Aggregation, filtering, deduplication, grouping - these operations become easier.
 
-Depending on the architecture binary log can reduce the amount of "events" needed to be processed by the log processing pipeline. Aggregation, filtering, deduplication, grouping - these operations are getting easier. 
-
-
-The data compression phase, if supported, is not zero cost. For example, the IoT world there is a case for generating and collecting binary logs. 
-
+Although the data compression phase, if supported, is not zero cost, binary logs have advantages, especially in the IoT world, where there is a need for generating and collecting binary logs.
 
 Based on https://github.com/larytet/binlog/ for example,
 
+# Implementation
+
+An example of a binary log implementation is the binlog project on GitHub. It provides the following features:
+
 * Collect binary logs
-* Use standard serialization like Protobuf, flatbuffers, Cap’n Proto, etc
-* Generate schemas, index the log entries on the fly
-* Store the log in the ElastiSearch/CouchDB/etc
-* Add server side script converting the logs into a human readable format
-
-*Applications*
-
-* IoT world
-* Automation
-* High performance WEB applications
-* Kernel code
+* Use standard serialization like Protobuf, FlatBuffers, Cap’n Proto, etc.
+* Generate schemas and index the log entries on the fly
+* Store the log in ElastiSearch, CouchDB, etc.
+* Add a server-side script converting the logs into a human-readable format.
 
 
-*Links*
+# Applications
+
+Binary logs are useful in many applications, such as:
+
+* IoT devices
+* Automation systems
+* High-performance web applications
+* Kernel code.
+
+# Links
 
 * https://www.baryudin.com/blog/entry/binary-self-contained-logs-modern-high-throughput-systems/
 * https://engineering.fb.com/2019/10/07/data-infrastructure/scribe/
