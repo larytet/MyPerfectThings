@@ -11,9 +11,11 @@ hard, and doesn't provide much of bounce by itself.
 The shoe allows two ways of customization. One way is electronicly limit the assistance. The second way via 
 a tighteing screw, or a set of screws.
 
-The bouncing spring can be hydraulic.
+The bouncing spring can be hydraulic. Conceptually the shoe is the reverse of power harvesting footwear. 
 
-Conceptually the shoe is the reverse of power harvesting footwear. 
+The microntroller relying on an accelerometer/altimeter/pressure sensors/etc registers movement and speed 
+(in several dimensions, depending on capability)
+to measure impact and weight distribution adapting the timing and power of the provided on every stemp assistance. 
 
 # Links 
 
