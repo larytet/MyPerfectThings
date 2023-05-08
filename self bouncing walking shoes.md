@@ -12,3 +12,9 @@ The shoe allows two ways of customization. One way is electronicly limit the ass
 a tighteing screw, or a set of screws.
 
 The bouncing spring can be hydraulic.
+
+Conceptually the shoe is the reverse of power harvesting footwear. 
+
+# Links 
+
+* [Power harvesting footwear](https://www.frontiersin.org/articles/10.3389/fmats.2019.00221/full)
