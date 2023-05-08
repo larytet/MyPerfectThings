@@ -1,3 +1,5 @@
+# Introduction
+
 Mechanical running shoes contain a spring and have electromagnetic assistance. On every step the assistant 
 forms a magnetic field tighting the spring attached to the bottom of the shoes. When the shoes touches the
 ground the assistant releases the spring. The spring bounces off the ground pushing the foot up. 
