@@ -41,3 +41,4 @@ More applications
 * https://www.aliexpress.com/item/1005002499268270.html
 * Motorized walking shoes 
 * Pacewing Industry Co., Ltd
+* Bionic Boots
