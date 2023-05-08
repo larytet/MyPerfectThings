@@ -42,3 +42,4 @@ More applications
 * Motorized walking shoes 
 * Pacewing Industry Co., Ltd
 * Bionic Boots
+* Enko
