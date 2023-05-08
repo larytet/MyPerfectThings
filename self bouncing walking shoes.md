@@ -15,6 +15,7 @@ The bouncing spring can also be hydraulic, making this shoe the reverse of power
 
 The microcontroller relies on an accelerometer, altimeter, pressure sensors, etc. to register movement and speed in multiple dimensions, depending on its capability. This allows it to measure impact and weight distribution, adapting the timing and power of the provided assistance on every step.
 
+
 More applications
 
 *  Auto-Accommodating Therapeutic Brace
@@ -28,7 +29,7 @@ More applications
 
 * Focus on balance and stability: While the goal of the design is to increase walking or running speed, it's important to ensure that the shoes maintain a good level of balance and stability to prevent falls or injuries. Consider ways to improve the shoes' stability, such as using different materials or adjusting the spring tension.
 
-* Improve customization options: The design currently allows for two types of customization - electronic limiting of the assistance and tightening screws. Expanding on these options or adding additional customization options could give users more control over the shoes' functionality and comfort.
+* Improve customization options: The design currently allows for two types of customization - electronic limiting of the assistance and tightening screws. Expanding on these options or adding additional customization options could give users more control over the shoes' functionality and comfort. One idea is to make the dynamic sole removable.
 
 * Increase compatibility with different foot sizes and shapes: To ensure that the shoes can be worn comfortably by a wider range of users, consider ways to increase their compatibility with different foot sizes and shapes. This could include using more flexible materials or offering different sizes and shapes of the mechanical components.
 
