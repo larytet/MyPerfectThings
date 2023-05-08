@@ -40,3 +40,4 @@ More applications
 * [Power harvesting footwear](https://www.frontiersin.org/articles/10.3389/fmats.2019.00221/full)
 * https://www.aliexpress.com/item/1005002499268270.html
 * Motorized walking shoes 
+* Pacewing Industry Co., Ltd
