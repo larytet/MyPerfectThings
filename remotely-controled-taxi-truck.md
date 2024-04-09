@@ -44,4 +44,4 @@ Proprietary microwave relay is not a great solution for the city as well: deploy
 
 *  https://www.quora.com/How-fast-can-the-human-eye-move
 *  https://en.wikipedia.org/wiki/Eye_movement
-*  
+*  phantom.auto is shutting down https://techcrunch.com/2024/03/12/remote-driving-startup-phantom-auto-is-shutting-down
