@@ -7,7 +7,7 @@
 - Easy access to the charcoal compartment. 
 - Grill stack composition:
   - Bottom basin with adjustable vent holes around the perimeter.
-  - Net for coals.
+  - Grate for coals.
   - Basin for water/wood chips.
-  - Net for food.
+  - Grate for food.
   - Thermo-isolated lid with adjustable vent holes.
