@@ -1,4 +1,4 @@
-**Grill Specifications**:
+h1. Korean style table top Grill
   
 - Stackable design, similar to Korean BBQ grills.
 - Dimensions: 20% smaller in width and length compared to the Weber's Go-Anywhere Charcoal Grill, but a bit taller in height.
