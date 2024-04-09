@@ -1,49 +1,46 @@
+## Video and Latency
 
-## video and latency
-
-*  Vehicle moving at the speed of 130 km/h moves 3cm/ms Typical reaction time of a driver is 500ms-1s. We want to target 1-5% of the driver reaction time (regulaton will say it's word for sure if the remote driving gets popular). This is **5-50ms round trip**. For slower moving vehicles like forklifts the network latency can in the 100-500ms range? Under 5ms roundtrip latency is not realistic in the modern generally available IP networks (proprietary **microwave relay** here?).
-*  We need to deliver high quality video only for the area where the driver has his eyes on. 
-*  We shall ensure under 5ms latency between recognition of a **saccade** and displaying a high resolution image in the right place. 
-*  The car can record 360 degrees view in high resolution, but send only low resolution stream for all or most areas.
-*  We want to minimize the network latency and impact of the network congestion. One of the ways to do this is to require 100% visibility for the microwave transmitters. 
-*  Semi-autonomous driving/safe stop will help to reduce "down time" when the network is not available.
-*  We can organize trains of semi-autonomous trucks controlled by a single driver sitting in the leading truck. This approach removes network from the equation.
-*  We can employ control centers along the busy interstates - every 200km or so - and switch the remote control over the truck between the centers. In this deployment scheme the vehicle is always one hop connection from at least one control center and can communicate directly.
+* A vehicle moving at a speed of 130 km/h moves 3 cm/ms. The typical reaction time of a driver is 500ms-1s. Our target is 1-5% of the driver's reaction time (regulations will likely intervene if remote driving becomes popular). This equates to a **5-50ms round trip**. For slower vehicles like forklifts, network latency can be in the 100-500ms range. Under 5ms roundtrip latency is not realistic in modern, generally available IP networks (perhaps a proprietary **microwave relay** solution?).
+* We need to deliver high-quality video only for the area where the driver is looking.
+* We shall ensure under 5ms latency between recognizing a **saccade** and displaying a high-resolution image in the right place.
+* The car can record a 360-degree view in high resolution, but send only a low-resolution stream for most areas.
+* We aim to minimize network latency and the impact of network congestion. One method is ensuring 100% visibility for microwave transmitters.
+* Semi-autonomous driving/safe stop features can help reduce downtime when the network is unavailable.
+* We can organize convoys of semi-autonomous trucks controlled by a single driver in the lead truck, removing the network from the equation.
+* We can establish control centers along busy interstates (every 200km or so) and switch remote control of the truck between centers. In this scheme, the vehicle is always within a one-hop connection from at least one control center and can communicate directly.
 
 ## Applications
 
-Becasue the network is not scaling well realistic possibilities are:
+Given that the network does not scale well, realistic applications include:
 
 * Vehicle recovery
 * SOS services
 * DUI avoidance
-* military vehicles
-* autonomous vehicle support
-* automatic parking 
-* industrial applications, like forklift
+* Military vehicles
+* Autonomous vehicle support
+* Automated parking
+* Industrial applications, like forklifts
 
-## Car integration 
+## Car Integration 
 
-* The driving interface in vehicles is not standart. Different types of vehicles will reuqire custom integration. Placement for the camera set is different as well. The software should accommodate differences in the hardware. Is it possible to reduce the problem to 2 or 3 conversion kits?
+* The driving interface in vehicles is not standardized. Different vehicle types will require custom integration. Camera placement also varies. The software should accommodate hardware differences. Can we reduce the problem to 2 or 3 conversion kits?
 
-## Drivers environment 
+## Driver's Environment 
 
-* How to provide **tactile feedback** to the driver? For example, gear switch related vibration (the transmission is not ideally smooth), the engine noise, the vehicle inclination, turn signal clicking, the steering wheel feedback - all should be collected and delivered.
-* This is not a computer game or training. How to keep the remote driver focused and motivated?
+* How do we provide **tactile feedback** to the driver? Gear switch vibrations, engine noise, vehicle inclination, turn signal clicking, and steering wheel feedback should all be collected and delivered.
+* This isn't a computer game or training simulation. How do we keep the remote driver focused and motivated?
 
 ## Taxi
 
-Taxi is tricky - most of the driving happens in the city. Network is congested or unavailable, network latency is high. The solution is nor scaling well. Even a small fleet of remotely controlled cars will easily consume the available bandwidth. 
-Proprietary microwave relay is not a great solution for the city as well: deployment of antennas is regulated. In some cities there are already deployed microwave relays. Proprietary network can make sense in some circumstances. For example, such network is easier to isolate, secure. 
+Operating taxis remotely is challenging - most city driving involves congested or unavailable networks, and high latency. The solution does not scale well. Even a small fleet of remotely controlled cars will quickly consume available bandwidth. Proprietary microwave relay is not ideal in cities due to regulated antenna deployment. However, a proprietary network could be useful in some scenarios, such as easier isolation and security. 
 
-*  Agreeements with the cellular providers can resolve some of the QoS problems. 
-*  Dedicated marking on roads, dedicated lanes which simplify the work for semi-autonomous cars.
-
+* Agreements with cellular providers could solve some QoS issues.
+* Dedicated markings on roads and lanes could simplify work for semi-autonomous cars.
 
 ## Links
 
-*  https://www.quora.com/How-fast-can-the-human-eye-move
-*  https://en.wikipedia.org/wiki/Eye_movement
-*  phantom.auto is shutting down https://techcrunch.com/2024/03/12/remote-driving-startup-phantom-auto-is-shutting-down
-*  German Vay
-*  Estonian Elmo
+* [Human Eye Movement Speed - Quora](https://www.quora.com/How-fast-can-the-human-eye-move)
+* [Eye Movement - Wikipedia](https://en.wikipedia.org/wiki/Eye_movement)
+* Phantom Auto is shutting down [TechCrunch](https://techcrunch.com/2024/03/12/remote-driving-startup-phantom-auto-is-shutting-down)
+* German Vay
+* Estonian Elmo
