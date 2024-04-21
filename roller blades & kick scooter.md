@@ -8,3 +8,5 @@ To keep things simple, I want to avoid using wires and charging ports. Instead, 
 
 I've been inspired by products such as RazErblades, which has similar features, as well as off-road electric rollerblades like Skopinski and Powerslide Metropolis SUV. I'm also interested in products like Moonwalkers by Shift Robotics, which target faster walking
 
+*  https://www.youtube.com/watch?v=Y8dc8KTpbnY
+*  Atmos Gear: https://www.atmosgear.com
