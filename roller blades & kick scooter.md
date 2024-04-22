@@ -12,4 +12,6 @@ I've been inspired by products such as RazErblades, which has similar features, 
 *  Atmos Gear: https://www.atmosgear.com
 *  ROLLWALK ELECTRIC SKATES https://www.youtube.com/watch?v=aG-uSSxkk_4
 *  Airtrick https://www.airtrick.top/
+*  Propulsion stick https://bit.ly/REM_Limitless_Propolsions
+
 
