@@ -4,7 +4,8 @@ To tackle this, I’ve created a pair of rollerblades equipped with an electric 
 
 When designing these rollerblades, I prioritized safety, ease of use, and the gear's total weight. The electric wheel adds around 300g to each boot, and I plan to recharge the batteries during downhill rides to lessen this extra weight. The motor's assistance is gentle and timed to coincide with the skater's own push.
 
-To simplify the design, I aim to eliminate wires and charging ports, exploring alternatives like wireless charging, easy battery swaps, and methods to reduce weight. I'm also considering a configuration feature and a gradual introduction mode covering the first 3-5km, allowing the system to adapt to the user's skill level.
+To simplify the design, I aim to eliminate wires and charging ports, exploring alternatives like wireless charging, easy battery swaps, and methods to reduce weight. There is an optional wheel for recovering energy and braking downhill. Additionally, LEDs are used for inter-CPU communication, doubling as safety illumination. I'm also considering a configuration feature and a gradual introduction mode covering the first 3-5km, allowing the system to adapt to the user's skill level.
+
 
 This project draws inspiration from products like RazErblades and off-road electric rollerblades such as Skopinski and Powerslide Metropolis SUV. I’m also looking at innovations like Moonwalkers by Shift Robotics, designed for enhanced mobility.
 
