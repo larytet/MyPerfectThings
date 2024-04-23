@@ -1,12 +1,12 @@
-Going uphill can be challenging, especially on a hot summer day with a gradient of more than a few degrees. What was once a joyful glide can quickly turn into strenuous and seemingly impossible work.
+Going uphill can be demanding, especially on a blistering summer day with a steep incline. What once felt like a smooth glide can suddenly become a tough, almost insurmountable task.
 
-To address this issue, I've designed a pair of rollerblades with one electric wheel, a small battery, accelerometers, and a CPU. The rollerblades are equipped with sensors that can detect the gradient, which leg is pushing, at what angle, and which wheel has traction. At the precise moment, the CPU triggers 5-10% acceleration, depending on the gradient.
+To tackle this, I’ve created a pair of rollerblades equipped with an electric wheel, a compact battery, accelerometers, and a CPU. These rollerblades have sensors to detect the slope, the active leg, the angle of push, and which wheel is gaining traction. When needed, the CPU activates a 5-10% boost in speed based on the incline. Additionally, a pressure sensor in the boots allows the CPU to monitor and prevent backward slipping.
 
-When designing the rollerblades, safety, convenience, and overall weight were important considerations. The electric wheels will add approximately 300g to the weight of the boots, so I may need to charge the batteries when going downhill to reduce their weight. The push supplied by the motor should be soft and at exactly the right moment when I am pushing the boot by myself.
+When designing these rollerblades, I prioritized safety, ease of use, and the gear's total weight. The electric wheel adds around 300g to each boot, and I plan to recharge the batteries during downhill rides to lessen this extra weight. The motor's assistance is gentle and timed to coincide with the skater's own push.
 
-To keep things simple, I want to avoid using wires and charging ports. Instead, I'm exploring options such as wireless charging, simple battery replacement, and weight savings. It would also be nice to have the ability to configure the ratios and support a break-in/learning mode for the first 3-5km, where the system slowly and safely adjusts to the operator's skills.
+To simplify the design, I aim to eliminate wires and charging ports, exploring alternatives like wireless charging, easy battery swaps, and methods to reduce weight. I'm also considering a configuration feature and a gradual introduction mode covering the first 3-5km, allowing the system to adapt to the user's skill level.
 
-I've been inspired by products such as RazErblades, which has similar features, as well as off-road electric rollerblades like Skopinski and Powerslide Metropolis SUV. I'm also interested in products like Moonwalkers by Shift Robotics, which target faster walking
+This project draws inspiration from products like RazErblades and off-road electric rollerblades such as Skopinski and Powerslide Metropolis SUV. I’m also looking at innovations like Moonwalkers by Shift Robotics, designed for enhanced mobility.
 
 *  https://www.youtube.com/watch?v=Y8dc8KTpbnY
 *  Atmos Gear: https://www.atmosgear.com
