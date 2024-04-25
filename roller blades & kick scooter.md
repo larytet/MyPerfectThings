@@ -14,5 +14,6 @@ This project draws inspiration from products like RazErblades and off-road elect
 *  ROLLWALK ELECTRIC SKATES https://www.youtube.com/watch?v=aG-uSSxkk_4
 *  Airtrick https://www.airtrick.top/
 *  Propulsion stick https://bit.ly/REM_Limitless_Propolsions
+*  https://www.youtube.com/watch?v=2PvLw8nksH8
 
 
