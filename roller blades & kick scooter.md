@@ -1,4 +1,4 @@
-"Going uphill can be demanding, especially on a blistering summer day with a steep incline. What once felt like a smooth glide can suddenly become a tough, almost insurmountable task.
+Going uphill can be demanding, especially on a blistering summer day with a steep incline. What once felt like a smooth glide can suddenly become a tough, almost insurmountable task.
 
 To address this, I've created a pair of rollerblades equipped with an electric wheel, a compact battery, accelerometers, and a CPU. These rollerblades have sensors to detect the slope, the active leg, the angle of push, and which wheel is gaining traction. When needed, the CPU activates a 5-10% boost in speed based on the incline. Additionally, a pressure sensor in the boots allows the CPU to monitor and prevent backward slipping.
 
