@@ -15,5 +15,6 @@ This project draws inspiration from products like RazErblades and off-road elect
 *  Airtrick https://www.airtrick.top/
 *  Propulsion stick https://bit.ly/REM_Limitless_Propolsions
 *  https://www.youtube.com/watch?v=2PvLw8nksH8
+*  https://www.youtube.com/watch?v=2U9YRVX7OXo
 
 
