@@ -20,6 +20,7 @@ This project draws inspiration from products like RazErblades and off-road elect
 *  Off-road is a good application for electric assistance: Flying Eagle, Rollerblade Triskate Coyote, Powerslide SUV
 *  Rollwalk
 *  ESCEND - Electric Skates
+*  [Rollkers](http://www.rollkers.com)
 
 
 
