@@ -13,7 +13,9 @@ By analyzing mutation chains, researchers can identify and study the progression
 The cache can improve spam detection by grouping similar spam email hashes.
 It can identify new spam messages that are variations of known spam.
 By recognizing chains of similar spam emails, filters can more effectively block spam campaigns that use slightly altered versions of the same message.
+
 How It Works:
+
 The distributed cache stores fuzzy hashes and calculates the Hamming distance between them.
 It identifies chains of mutations by grouping hashes where the distance between any two hashes does not exceed a predefined limit.
 This allows for the detection of patterns and variations within the data, enabling more efficient and accurate analysis.
