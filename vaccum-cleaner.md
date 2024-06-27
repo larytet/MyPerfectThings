@@ -12,3 +12,5 @@ Products targetting households:
 * Tineco Ifloor
 * http://lavorpro.co.uk/products/walk-behind-floor-scrubber-driers/?&SingleProduct=69
 * Lavor Crystal Clean http://lavorpro.co.uk/products/walk-behind-floor-scrubber-driers/?&SingleProduct=68
+* Tineco Floor One S7 Pro
+* Dyson WashG1 Wet Floor Cleaner
