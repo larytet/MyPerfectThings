@@ -13,3 +13,9 @@ solution to urban heat, energy consumption, and public health concerns.
 Moreover, generating electricity close to where the demand exists minimizes energy loss during transmission and distribution, making the energy supply more efficient and reliable. This 
 localized generation meets the immediate energy needs of the surrounding area, ensuring that the power is utilized effectively. By leveraging renewable energy sources and enhancing city 
 infrastructure, this idea presents a forward-thinking approach to urban planning and sustainability.
+
+
+# Links
+
+* Smart umbrellas installed in the Prophet Mosque in Saudi Arabia
+* 
