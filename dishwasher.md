@@ -1,5 +1,6 @@
 * Two sections which can be run simultaneously or concurrently
 * The door opens ALSO left to right OR right to left depending on the instalation.
+* The door is transparent or can change transparency.
 * Installation above the kitchen counter and not under the counter
 * Last washing cycle can be collected for irrigation
 * Easy access to the salt container
