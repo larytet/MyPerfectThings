@@ -20,4 +20,5 @@ Links
 * Fisher&Paykel Integrated Double DishDrawer™ Dishwasher
 * Dishwasher magnet https://www.aliexpress.com/item/1005004262648488.html
 * Electrolux "Visi" from 2006 has/had a window
+* KitchenAid's KDTM384ESS has a window
 
