@@ -19,4 +19,5 @@ Links
 * https://www.housebeautiful.com/design-inspiration/home-makeovers/a25462393/two-dishwasher-kitchen-ideas/
 * Fisher&Paykel Integrated Double DishDrawer™ Dishwasher
 * Dishwasher magnet https://www.aliexpress.com/item/1005004262648488.html
-* 
+* Electrolux "Visi" from 2006 has/had a window
+
