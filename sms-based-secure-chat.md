@@ -23,10 +23,40 @@ https://silence.im/
 
 
 
-
-
 * List of popular chat clients https://www.recode.net/2017/4/15/15297316/apps-whatsapp-signal-imessage-hacking-hackers-messages-privacy
 * A similar idea https://silence.im/
 * Privacy and Data Protection in Smartphone Messengers https://www.sba-research.org/wp-content/uploads/publications/paper_drafthp.pdf
 *  More history about SMS encryption http://www.wikiwand.com/en/TextSecure
 
+
+# Products and Concepts for Secure Messaging Using SMS and Phone Calls
+
+1. **Signal:**
+   - Signal is a widely used end-to-end encrypted messaging application that can work over various protocols, including SMS. While it primarily uses data for messaging, it allows for SMS fallback in areas without internet access.
+
+2. **Wickr:**
+   - Wickr provides secure messaging and file sharing with end-to-end encryption. While it does not use SMS as a protocol, it emphasizes privacy and security, making it a similar concept.
+
+3. **Sesame:**
+   - Sesame offers a unique take on secure messaging by transforming text into images, which can then be sent via SMS or other methods. While it doesn't precisely match your idea, it explores creative ways to convey messages securely.
+
+4. **Gotenna:**
+   - Gotenna creates a mesh network using low-bandwidth communication for secure messaging, enabling users to communicate even without cellular service. It offers some anonymity through decentralized networking.
+
+5. **Stealth Chat:**
+   - Stealth Chat allows users to send encrypted messages over SMS, with a focus on user privacy. It aims to maintain confidentiality and is designed to prevent interception.
+
+6. **SIP Communicator (Jitsi):**
+   - Jitsi is an open-source platform that supports video calls and messaging over SIP, which could potentially be adapted to utilize phone calls as part of its messaging architecture.
+
+7. **Hush Communications:**
+   - Hush offers secure communication through a combination of email and messaging, focusing on privacy and security. Though not directly SMS-based, it emphasizes anonymity and confidentiality.
+
+8. **Encrypted Voice Calling Apps:**
+   - Applications like **Wire** and **Viber** allow for encrypted voice calls, enabling secure conversations over the internet. They may not utilize traditional phone networks like SMS, but they promote secure communication.
+
+9. **Mesh Networking Solutions:**
+   - Projects like **Serval Project** and **Celo** explore mesh networking to allow mobile devices to communicate without traditional cell towers, which can include sending encrypted messages.
+
+10. **Custom Encryption Protocols:**
+    - While not a specific product, creating a custom protocol to encode messages into readable formats using a dictionary (as you described) could inspire innovative messaging applications. This concept could be explored in research or developed into a new product.
