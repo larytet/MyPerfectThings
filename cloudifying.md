@@ -15,7 +15,10 @@ Existing solutions:
 
 
 Refactoring Tools: JetBrains ReSharper, SonarQube, and Eclipse JDT.
+
 Code Analysis Tools: ESLint, PMD, and Checkstyle.
+
 Containerization Platforms: Docker, Kubernetes, and OpenShift.
+
 Cloud Migration Tools: AWS CloudEndure, Azure Migrate, and Google Cloud Migrate
 
