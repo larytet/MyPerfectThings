@@ -1,3 +1,3 @@
 # MyPerfectThings
 
-Many things around us can be improved. Some things are hard to improve, some easier. It is not very hard to make a dish washer more convenient. This is a place where I collect ideas. 
+Many things around us can be improved. Some are difficult to enhance, while others are easier. For example, making a dishwasher more convenient isn't too hard. This is where I collect my ideas.
