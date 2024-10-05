@@ -7,3 +7,7 @@ The goal: patented cardboard packaging for a laptop/tablet which can be used as 
 
 
 * https://www.youtube.com/watch?v=BszbcAjpdRs
+* https://www.youtube.com/watch?v=GAlD_mxYCsQ
+* https://www.youtube.com/watch?v=UwNnlHWegg0
+* https://www.kartent.com/en/laptop-stand-cross.html
+* 
