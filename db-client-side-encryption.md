@@ -2,8 +2,9 @@ Imagine a client encrypting data in such a way that a database can still index i
 
 Baseline Requirements:
 
-Open source
-Easy integration with popular programming languages: Java, Go, Python
+* Open source
+* Easy integration with popular programming languages: Java, Go, Python
+
 Details: The database receives the key as part of the transaction (is the key one-time only? How can this be done?). Strong encryption (like AES) requires a unique key each time. The database decrypts the outer layer of encryption and gains access to the second, weaker layer. This second layer uses a simple cipher that supports searching and string comparison. After the transaction is completed, the key is rendered useless. The client changes the salting in the database after every transaction (how will indexing work?).
 
 One interesting question is whether there is a cipher that allows for replacing the decryption key by modifying only a small part of the data. Imagine MPEG: without the master frame, it’s hard, if not impossible, to understand the movie. Now, picture a database where the data is represented as a master frame (master record) and diffs. Diffs can (but usually won’t) contain the vast majority of the data. The master record is the one that is encrypted. If I change the key, I need to rewrite the master record, which can be relatively small or relatively large, depending on the number of diffs. I can merge the diffs into the master frame occasionally. The next step toward this type of encryption could be Huffman coding. Compression can serve as a means of encrypting data by substituting blocks of data.
