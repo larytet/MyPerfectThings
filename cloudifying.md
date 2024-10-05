@@ -7,7 +7,15 @@ I envision an automatic or semi-automatic refactoring software. This advanced pr
 The target market includes large legacy software products, particularly in-house applications that could benefit from moving to the cloud. Examples include the financial sector and public services.
 
 Existing solutions:
+
 * https://www.vfunction.com/
 * https://www.openlegacy.com/  (SAP?)
 * https://www.nextpathway.com/crawler-360
 * https://www.smartmigrator.com/
+
+
+Refactoring Tools: JetBrains ReSharper, SonarQube, and Eclipse JDT.
+Code Analysis Tools: ESLint, PMD, and Checkstyle.
+Containerization Platforms: Docker, Kubernetes, and OpenShift.
+Cloud Migration Tools: AWS CloudEndure, Azure Migrate, and Google Cloud Migrate
+
