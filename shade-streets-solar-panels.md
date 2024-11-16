@@ -18,4 +18,4 @@ infrastructure, this idea presents a forward-thinking approach to urban planning
 # Links
 
 * Smart umbrellas installed in the Prophet Mosque in Saudi Arabia
-* 
+* https://edition.cnn.com/2024/11/15/tech/fortyguard-urban-heat-ai-hnk-spc/index.html mentions `FortyGuard`, Google's `Heat Resilience`, Zillow
