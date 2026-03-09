@@ -1,22 +1,9 @@
-A distributed cache as a service for fuzzy hashes.
+A distributed similarity cache as a service for fuzzy fingerprints
 
-A distributed cache for fuzzy hashes can be applied to various fields, such as bioscience and email spam filters. This cache uses Hamming distance to find chains of mutations. A mutation chain is a group of hashes where the distance between any two hashes in the group does not exceed a certain limit.
+This service stores fuzzy fingerprints in a distributed cache and supports fast approximate matching using distance-based similarity measures such as Hamming distance where appropriate. It can identify related items, cluster near-duplicates, and detect chains of small variations across large datasets.
 
-* Bioscience:
+One key use case is email spam filtering. Spam campaigns often send slightly modified versions of the same message to evade detection. By grouping similar fingerprints, the service can identify new spam messages that are close variants of known spam and improve filtering accuracy.
 
-In genomics, it can help track genetic mutations by identifying groups of similar genetic sequences.
-This can be crucial for understanding the evolution of diseases and developing targeted treatments.
-By analyzing mutation chains, researchers can identify and study the progression of genetic variations over time.
+Other use cases include malware similarity detection, duplicate-content detection, and change tracking in systems where items evolve incrementally over time.
 
-* Email Spam Filters:
-
-The cache can improve spam detection by grouping similar spam email hashes.
-It can identify new spam messages that are variations of known spam.
-By recognizing chains of similar spam emails, filters can more effectively block spam campaigns that use slightly altered versions of the same message.
-
-How It Works:
-
-The distributed cache stores fuzzy hashes and calculates the Hamming distance between them.
-It identifies chains of mutations by grouping hashes where the distance between any two hashes does not exceed a predefined limit.
-This allows for the detection of patterns and variations within the data, enabling more efficient and accurate analysis.
-By utilizing a distributed cache for fuzzy hashes and Hamming distances, this system can enhance research and detection capabilities in both bioscience and email spam filtering, among other applications.
+The system works by storing fingerprints in a distributed cache, computing similarity between them, and organizing related items into clusters or mutation chains based on a configurable distance threshold. This enables fast, scalable detection of patterns and variants without requiring exact matches.
