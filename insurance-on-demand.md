@@ -1,23 +1,27 @@
-If I feel that I’m having a bad day, I want the option to purchase life insurance for the next eight hours. I could send an SMS and receive a response while I finish my cup of coffee and get ready to go out. The hourly rate for such insurance might be 10 to 20 times higher than typical life insurance. That’s acceptable because I’m not planning to buy it every day.
+If I feel I’m having a bad day, I want the option to buy insurance coverage for just the next eight hours. I should be able to send an SMS or open an app, activate coverage while I finish my coffee and get ready to leave, and receive immediate confirmation. The hourly premium could be 10 to 20 times higher than the equivalent rate of a traditional policy. That would still be acceptable, because this is not something I would buy every day.
 
-Thanks to smartphones, we can ensure that the insurance company only covers legitimate claims by recording audio, GPS data, and accelerometer readings.
+Smartphones make this kind of product possible. The insurer could use phone data such as GPS, accelerometer signals, and possibly audio-based context to verify that a claim is legitimate and that the insured event occurred during the covered time window. This would reduce fraud and make short-duration, on-demand coverage more practical.
 
+A comparable model already exists in auto insurance. Services such as Cuvva showed that consumers are willing to purchase insurance by the hour when they only need coverage for a short period. That same logic could be extended to personal risk coverage.
 
+That said, the strongest version of this idea is probably not pure short-term life insurance, but rather on-demand accidental death and severe injury coverage. This would be easier to underwrite, easier to explain to regulators, and more practical to price than all-cause life insurance activated at the last minute.
 
-Example of houry insurance for cars https://techcrunch.com/2016/01/05/cuvva/
+Several adjacent categories suggest the market direction:
 
+Usage-based insurance: Insurance that activates only during a defined activity or time period.
 
-On-Demand Life Insurance: Metromile: While primarily known for pay-per-mile auto insurance, Metromile has explored on-demand life insurance options that allow users to buy coverage for short periods. Similar models are emerging in the life insurance market, where consumers can purchase coverage for specific events or timeframes.
+Accidental Death and Dismemberment (AD&D): Short-term coverage for accidental injury or death tied to specific events, travel, or activities.
 
-Short-Term Life Insurance: EverQuote and Policygenius: These platforms often feature short-term life insurance options that allow you to purchase coverage for a limited duration. However, they might not have the immediacy or flexibility of a product that allows for hourly coverage.
+Microinsurance: Low-duration, narrowly defined coverage for a specific risk.
 
-Accidental Death and Dismemberment (AD&D) Insurance:Some providers offer short-term AD&D policies that can be purchased for specific events or travel, typically for a few hours to a few days.
-Peer-to-Peer Insurance:
+Travel or event-based insurance: Temporary policies purchased only for a trip, outing, or exposure window.
 
-Lemonade: Although not specifically for life insurance, Lemonade offers renters and homeowners insurance with a peer-to-peer model that allows for more flexible coverage. They also have been known to explore innovative insurance products.
+Flexible digital insurance models: Companies such as Lemonade helped normalize simple, app-based insurance experiences, even if not for this exact product.
 
-Usage-Based Insurance: Some insurers offer products based on usage patterns, such as health insurance or travel insurance that activates based on GPS data. These can be tailored for specific activities or events.
+Some platforms, such as Policygenius and EverQuote, also show consumer demand for simpler and more flexible insurance shopping, though they do not offer true hourly life insurance. Metromile demonstrated the appeal of usage-based insurance in auto, even if the same model has not yet fully translated into life insurance.
 
-Microinsurance: Microinsurance products provide coverage for specific risks for a short duration. These products are often tailored to low-income individuals but can serve as a model for short-term life insurance.
+So the clearest product framing is:
 
-Travel Insurance: While not specifically life insurance, travel insurance often includes short-term coverage for emergencies, which can be purchased for the duration of a trip.
+8-hour, on-demand accidental death and severe injury insurance, activated instantly by SMS or app, priced at a premium hourly rate, and validated using smartphone telemetry.
+
+This is more realistic than hourly life insurance, while still capturing the same core user need: immediate protection during periods of elevated personal risk.
