@@ -44,6 +44,29 @@ Output can also target a home craft cutter (Cricut, Silhouette) via SVG export.
 - **Pay-per-export** — full resolution, no watermark, multi-layer color separation, craft cutter SVG export
 - **Pro / agency plan** — bulk exports, custom panel sizes, priority processing
 
+# Multi-Panel Alignment
+
+## Existing approaches
+
+- **Registration holes + pencil marks** — punch 3–4 small holes at the corners of each panel, mark the wall through them with a pencil, align the next panel to those marks. Simple, accurate, no tools needed.
+- **Overlap zones** — panels are generated with a 2–3 cm overlap strip; registration crosses printed in the overlap let you visually snap the next panel to the previous one before taping. No measuring required.
+- **Laser level grid** — a cheap cross-laser level ($15–30) projects a horizontal and vertical line; panels are generated with matching hairline marks on their edges. Fast for large surfaces.
+- **Numbered grid on wall** — lightly tape a measured string grid to the wall first; panel PDF includes grid coordinates printed at the edges.
+
+## Modular / master-frame concept
+
+Instead of one panel per spray pass, generate a **single rigid master frame** that stays taped to the wall throughout the entire job:
+
+- The frame is a full-size backing sheet (foam board, acetate/mylar, or card) with the outer border and registration features
+- Individual color layers or detail zones are separate **inserts** — small cut pieces that slot into openings in the frame
+- Workflow: tape frame once → insert layer 1 pieces → spray → remove layer 1 inserts → insert layer 2 pieces → spray → repeat
+- The frame itself never moves, so all layers are perfectly registered automatically
+- Inserts can be repositioned or reused for repeating patterns
+
+This is how professional screen-print registration frames work — the stencil generator could output both the frame file and numbered insert files as separate PDFs, with slot margins sized to allow easy finger removal without disturbing the frame.
+
+**Advantage over separate panels:** zero alignment error between color layers; the frame doubles as a mask protecting the surrounding wall.
+
 # Implementation Notes
 
 - Image processing pipeline: upload → posterize/threshold → stencil bridge insertion → tile → PDF generation
