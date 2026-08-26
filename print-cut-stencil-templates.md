@@ -94,12 +94,29 @@ Magnetic strips are removable from walls without damage (3M Command-style backin
 
 # Competitive Landscape
 
-## Stencil generators
+## Multi-layer stencil products (mature category)
 
-- **[FreeStencilMaker.com](https://freestencilmaker.com/wall-art-stencil-maker)** — free, no signup. Upload image → multi-layer color separation → auto-bridges islands → exports SVG, PDF, DXF. Has dedicated graffiti and wall art modes. Covers the core feature set well.
-- **[GridPrint.app](https://gridprint.app/en/use/mural-stencil)** — free, browser-based. Set wall dimensions, tiles across A4/Letter with crop marks and overlap guides. Handles 50+ page assemblies with numbered assembly maps. No color separation — purely a tiling/scaling tool.
+Multi-layer stencils (one mylar sheet per color, corner crosshair registration marks) are a standard product:
+
+| Platform | Price | Notes |
+|---|---|---|
+| AliExpress | $1–$10/set | Fixed designs only |
+| Etsy | $5–$30 | Many sellers do custom from user images |
+| Custom (Stencil Stop, Stencil Me Pretty) | $30–$100+ | Laser-cut mylar from user image, ships within ~1 week |
+
+Standard registration method: corner crosshair (+) marks cut into every layer — traced onto wall in pencil before spraying. No distributed alignment, no peepholes, no magnetic mounting.
+
+- **[Stencil Stop](https://stencilstop.com/collections/layered-stencil-sets)** — custom multi-layer sets from user images, most complete offering
+- **[Stencil Me Pretty](https://stencilmepretty.com/products/custom-layered-stencils-set)** — custom multi-layer with registration mark system
+- **[AliExpress multilayer](https://www.aliexpress.com/w/wholesale-multilayer-stencil.html)** — cheap fixed designs
+- **[Etsy multi layer kit](https://www.etsy.com/market/multi_layer_stencil_kit)** — large volume of sellers
+
+## Stencil generator tools
+
+- **[FreeStencilMaker.com](https://freestencilmaker.com/wall-art-stencil-maker)** — free, no signup. Upload image → multi-layer color separation → auto-bridges islands → exports SVG, PDF, DXF. Graffiti and wall art modes.
+- **[Super Stencil Maker](https://superstencilmaker.com/)** — up to 5 colors (4 layers), auto-bridges.
+- **[GridPrint.app](https://gridprint.app/en/use/mural-stencil)** — free, tiles image across A4/Letter pages with crop marks and overlap guides, 50+ page assemblies. No color separation — tiling only.
 - **[StencilVector.com](https://stencilvector.com/)** — AI-powered, free.
-- **Pre-cut stencil shops** (Stencil Stop, Cutting Edge Stencils, Designer Stencils) — sell ready-made mylar mural stencils; not user-image tools.
 
 ## Magnetic wall mounting
 
@@ -107,15 +124,16 @@ No dedicated product exists for stenciling, but the underlying technology exists
 
 - **[FerroPaint + MagFlex (first4magnets.com)](https://www.first4magnets.com/product/magnetic-gallery-pack-display-artwork-prints-magnetically-20764)** — paint applied to any wall makes it magnetically receptive; magnetic-backed sheets snap to it. Designed for gallery display, directly applicable to stenciling.
 - **[Olee Creative Magnetic Wall Panels](https://oleecreative.com/magnetic-graphic-systems)** — iron-ore primer + magnetic receptive synthetic paper for layered commercial signage.
-- **[StencilEase magnetic stencils](https://www.stencilease.com/collections/magnetic-stencils)** — magnetic stencils for metal surfaces (drums, containers); not for walls.
+- **[StencilEase magnetic stencils](https://www.stencilease.com/collections/magnetic-stencils)** — magnetic stencils for metal surfaces only; not for walls.
 
 ## Gaps — what none of them do
 
+- **Color separation + large-format tiling combined** — FreeStencilMaker does color separation but limited tiling; GridPrint does tiling but no color separation; no tool does both end-to-end
+- Distributed peephole alignment across the template body (paper elasticity compensation)
 - Orientation marks and adhesive zone guides on panels
 - Master-frame + removable inserts workflow
-- Visual cue alignment (peep-holes, registration dots keyed to painted features)
 - Strip placement guide PDF for a magnetic rail system
-- Combined end-to-end workflow from image upload to physical application
+- End-to-end workflow: image upload → color-separated → tiled into printable panels → physical placement guides
 
 # Implementation Notes
 
