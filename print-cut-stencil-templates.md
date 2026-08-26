@@ -67,6 +67,19 @@ This is how professional screen-print registration frames work — the stencil g
 
 **Advantage over separate panels:** zero alignment error between color layers; the frame doubles as a mask protecting the surrounding wall.
 
+## Magnetic strip rail system
+
+A reusable alternative to taping directly to the wall:
+
+- Stick **self-adhesive magnetic strips** to the wall once, arranged as a measured grid (horizontal rows at panel-height intervals)
+- Print templates on **ferro-paper** (magnet-receptive paper, available for home printers) or laminate the back of normal paper with a thin ferro sheet
+- Templates snap onto the strips, hold firmly enough for spraying, and peel off cleanly with no tape residue on the wall
+- The strips stay on the wall permanently and serve as a registration grid for every future session
+
+The stencil generator would output **strip placement guides** — a separate PDF showing exactly where to stick the strips for a given image size and panel layout, so the grid is set up correctly once and reused across all panels and all future projects on that wall.
+
+Magnetic strips are removable from walls without damage (3M Command-style backing), making this viable for rental spaces and indoor murals. Ferro-paper and magnetic strips are commodity products available on Amazon.
+
 # Implementation Notes
 
 - Image processing pipeline: upload → posterize/threshold → stencil bridge insertion → tile → PDF generation
