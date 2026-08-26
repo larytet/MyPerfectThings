@@ -53,6 +53,16 @@ Output can also target a home craft cutter (Cricut, Silhouette) via SVG export.
 - **Laser level grid** — a cheap cross-laser level ($15–30) projects a horizontal and vertical line; panels are generated with matching hairline marks on their edges. Fast for large surfaces.
 - **Numbered grid on wall** — lightly tape a measured string grid to the wall first; panel PDF includes grid coordinates printed at the edges.
 
+## Visual cue alignment (best default)
+
+The generator knows exactly where painted features will appear, so it can auto-place alignment cues at high-contrast reference points from the image:
+
+- **Colored registration dots** — e.g. "place this panel so the red dot sits over the painted left eye, green dot over the chin." Works for non-adjacent panels and panels applied out of order.
+- **Peep-hole windows** — small uncut square holes at 2 corners of the stencil, positioned over already-painted areas. You look through the hole at the actual artwork on the wall and align visually. No dots, no guessing — you see the real painted surface.
+- **Corner tick marks** — tiny L-shaped notches at panel edges; the previous panel left a faint paint ghost of its corner marks, next panel snaps to those ghosts.
+
+Best combination: peep-hole windows at 2 corners + one colored dot at an interior feature = 3-point alignment that eliminates both translation and rotation error, with no extra tools.
+
 ## Modular / master-frame concept
 
 Instead of one panel per spray pass, generate a **single rigid master frame** that stays taped to the wall throughout the entire job:
@@ -79,6 +89,31 @@ A reusable alternative to taping directly to the wall:
 The stencil generator would output **strip placement guides** — a separate PDF showing exactly where to stick the strips for a given image size and panel layout, so the grid is set up correctly once and reused across all panels and all future projects on that wall.
 
 Magnetic strips are removable from walls without damage (3M Command-style backing), making this viable for rental spaces and indoor murals. Ferro-paper and magnetic strips are commodity products available on Amazon.
+
+# Competitive Landscape
+
+## Stencil generators
+
+- **[FreeStencilMaker.com](https://freestencilmaker.com/wall-art-stencil-maker)** — free, no signup. Upload image → multi-layer color separation → auto-bridges islands → exports SVG, PDF, DXF. Has dedicated graffiti and wall art modes. Covers the core feature set well.
+- **[GridPrint.app](https://gridprint.app/en/use/mural-stencil)** — free, browser-based. Set wall dimensions, tiles across A4/Letter with crop marks and overlap guides. Handles 50+ page assemblies with numbered assembly maps. No color separation — purely a tiling/scaling tool.
+- **[StencilVector.com](https://stencilvector.com/)** — AI-powered, free.
+- **Pre-cut stencil shops** (Stencil Stop, Cutting Edge Stencils, Designer Stencils) — sell ready-made mylar mural stencils; not user-image tools.
+
+## Magnetic wall mounting
+
+No dedicated product exists for stenciling, but the underlying technology exists:
+
+- **[FerroPaint + MagFlex (first4magnets.com)](https://www.first4magnets.com/product/magnetic-gallery-pack-display-artwork-prints-magnetically-20764)** — paint applied to any wall makes it magnetically receptive; magnetic-backed sheets snap to it. Designed for gallery display, directly applicable to stenciling.
+- **[Olee Creative Magnetic Wall Panels](https://oleecreative.com/magnetic-graphic-systems)** — iron-ore primer + magnetic receptive synthetic paper for layered commercial signage.
+- **[StencilEase magnetic stencils](https://www.stencilease.com/collections/magnetic-stencils)** — magnetic stencils for metal surfaces (drums, containers); not for walls.
+
+## Gaps — what none of them do
+
+- Orientation marks and adhesive zone guides on panels
+- Master-frame + removable inserts workflow
+- Visual cue alignment (peep-holes, registration dots keyed to painted features)
+- Strip placement guide PDF for a magnetic rail system
+- Combined end-to-end workflow from image upload to physical application
 
 # Implementation Notes
 
