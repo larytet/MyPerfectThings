@@ -23,7 +23,10 @@ A user uploads an image (photo, logo, illustration, or generated art). The servi
    - Removes isolated islands that would fall out when cut (bridge generation)
    - Optionally applies a posterization or edge-detection style
 4. **Exports** a print-ready PDF — one page per panel per color layer
-5. User prints, cuts with scissors or a craft knife, tapes to surface, sprays
+5. Each panel includes:
+   - **Orientation arrow** — clearly marked TOP/NORTH so the panel is placed correctly regardless of rotation
+   - **Adhesive zones** — printed rectangles at the corners and midpoints indicating exactly where to apply double-sided tape; sized to avoid the spray area so tape residue doesn't land on the artwork
+6. User prints, cuts with scissors or a craft knife, applies double-sided tape at the marked zones, positions on surface, sprays
 
 Output can also target a home craft cutter (Cricut, Silhouette) via SVG export.
 
