@@ -63,6 +63,8 @@ The generator knows exactly where painted features will appear, so it can auto-p
 
 Best combination: peep-hole windows at 2 corners + one colored dot at an interior feature = 3-point alignment that eliminates both translation and rotation error, with no extra tools.
 
+**Distributed peepholes for paper elasticity:** paper bows, stretches, and sags — 2 corner holes only detect translation and rotation but miss local warping. The generator should place peepholes in a grid across the entire template (e.g. every 15–20 cm), each positioned over a distinctive already-painted feature. Before spraying, you check all holes: if any shows misalignment, you smooth and re-tension the paper at that point before taping. The more holes, the more confident you can be the template is lying flat and true across its full area.
+
 ## Modular / master-frame concept
 
 Instead of one panel per spray pass, generate a **single rigid master frame** that stays taped to the wall throughout the entire job:
