@@ -19,12 +19,22 @@ Examples of what this unlocks:
 - Hills and terrain affecting realistic range
 - Willingness to lock the bike at destination vs. bringing it on transit
 
-**Prior art / related:**
-- Google Maps "bike + transit" mode exists but is limited and doesn't account for e-scooter speed or range preferences
-- Citymapper does some multimodal routing but treats scooters as rentals, not owned vehicles
-- Rome2rio handles long-distance multimodal but not micro-mobility
-- Moovit, Transit app — solid transit, weak on personal micro-mobility integration
-- OTP (OpenTripPlanner) open-source engine supports bike+transit; could be the backend
+**Existing apps and services:**
+
+- **Citymapper** (Android/iOS) — closest to the idea. "Routing Powers" combines personal bike/scooter with public transit and supports personal cycling speed. Still doesn't expose range or vehicle type as explicit inputs. https://citymapper.com
+- **Google Maps** (Android/iOS) — bike+transit mode exists but no per-user speed or range profile; treats everyone identically.
+- **Moovit** (Android/iOS) — bike/walk + transit combos, AI routing. No owned-vehicle profile. https://moovit.com
+- **Transit app** (Android/iOS) — scooter+metro in one trip, departure alarms. No owned-vehicle range/speed profile. https://transitapp.com
+- **Trafi** (Android/iOS, limited cities) — most integrated: personal + shared scooters + public transit in one app. Coverage limited.
+- **ATL RIDES** (Atlanta region only) — full multimodal including personal scooter/bike + transit, cost/calorie/carbon comparison. City-specific.
+- **ScootRoute** (Android/iOS) — scooter/e-bike routing avoiding highways and hills, bike lanes. No transit integration.
+- **Urban Rider** (Android/iOS) — 4 vehicle profiles (scooter, moped, motorcycle, bike) with speed selection (25/45 km/h). No transit integration. https://www.urbanrider.app
+- **Naviki** (Android/iOS) — bicycle/e-bike routing, all terrain types. No transit integration. https://www.naviki.org
+- **Komoot** (Android/iOS) — cycling routing with fitness/terrain profile. No transit integration.
+- **Rome2rio** (Android/iOS) — long-distance multimodal (train+flight+ferry). No personal micro-mobility.
+- **OpenTripPlanner** (open-source engine, not a consumer app) — powers many transit apps. Supports own bicycle + transit and bike park-and-ride. Could be the backend for this idea. https://github.com/opentripplanner/OpenTripPlanner
+
+**Key gap:** No mainstream global app lets you say "I own an e-scooter, comfortable range X km, speed Y km/h" and get optimized mixed routes. Citymapper comes closest but still doesn't expose range/speed parameters for personal vehicles.
 
 **Monetization:**
 - Freemium with saved vehicle profiles
