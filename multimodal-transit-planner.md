@@ -5,19 +5,29 @@ The idea is a routing app that treats your personal micro-mobility vehicle as a 
 Examples of what this unlocks:
 - Ride 3 km to a metro station that Google Maps ignores because it assumes a 20-minute walk, then take one direct train instead of two with a transfer.
 - Skip a crowded bus leg by scooting a parallel route that's faster at that time of day.
-- Park your scooter at a transit hub with secure parking and continue by rail.
+- Bring your bicycle on the train and ride the last 5 km — no parking needed at either end.
+
+**Bringing your vehicle on transit — a key multiplier:**
+
+Many transit systems allow passengers to bring personal micro-mobility vehicles on board, which changes the routing math significantly — the vehicle doesn't need to be locked at a station, and both legs of the trip can be covered door-to-door:
+
+- **Trains** — many rail systems allow full-size bicycles during off-peak hours (e.g., Israel Railways allows bicycles in designated cars at non-rush hours). Foldable scooters and foldable bicycles are typically allowed at any hour without restrictions.
+- **Buses** — many intercity and regional buses have luggage bays underneath where a scooter or folded bicycle fits. This makes the scooter usable on both the first and last mile without leaving it behind.
+- **Metro/light rail** — rules vary by city; foldable vehicles are almost universally permitted.
+
+The app needs to know: is your vehicle foldable? Then it can route you through train legs and bus legs where the vehicle travels with you, not just to/from a parking spot.
 
 **Key inputs the user provides once:**
 - Vehicle type (kick scooter, e-scooter, e-bike, bicycle, rollerblades)
+- Whether it is foldable
 - Comfortable range per leg in km
 - Speed estimate or just let the app default by vehicle type
-- Whether the vehicle is foldable / can go on transit
 
 **What makes this hard:**
 - Real-time transit data + bike routing in a single graph search
-- Scooter parking availability at stations
+- Per-operator, per-line, time-of-day rules for bringing vehicles on board — this data is rarely machine-readable
+- Scooter parking availability at stations (for non-foldable vehicles)
 - Hills and terrain affecting realistic range
-- Willingness to lock the bike at destination vs. bringing it on transit
 
 **Existing apps and services:**
 
