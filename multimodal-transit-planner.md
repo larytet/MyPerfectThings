@@ -46,6 +46,14 @@ The app needs to know: is your vehicle foldable? Then it can route you through t
 
 **Key gap:** No mainstream global app lets you say "I own an e-scooter, comfortable range X km, speed Y km/h" and get optimized mixed routes. Citymapper comes closest but still doesn't expose range/speed parameters for personal vehicles.
 
+**Updates and additional apps (researched August 2026):**
+
+- **Citymapper** — Acquired by Via Transportation (2023), still active. In 2026 launched AI-powered journey planning ("Citymapper CLUB") with personalized recommendations based on historical preferences and AI-generated trade-off summaries (speed/cost/walking/reliability). Closer to personalization but still addresses preferences, not vehicle physics. The core gap remains.
+- **Transit App** — Added elevation-sensitive routing (avoids uphill legs unexpectedly) — directly relevant to e-scooter range on hills. In-app unlock and payment for shared scooters/bikes in ~10 cities (Chicago, Toronto, Montreal, Detroit, Minneapolis). Still no owned-vehicle range/speed profile.
+- **Trafi** — Now primarily a B2B white-label MaaS platform (acquired by Enghouse, April 2025); not a standalone consumer app. City-branded deployments (e.g., Jelbi for Berlin) show real-time availability + battery range for *shared* scooters (Voi, Lime, Bolt) but not personally-owned vehicles. Effectively inaccessible as a global consumer product.
+- **Metropia** (not previously listed) — MaaS intermodal planner with first/last mile integration; personalization based on walking/biking speed preferences. B2B city-contract platform, not a standalone consumer app. Relevant as a benchmark for what cities are deploying.
+- **Magic Earth** (not previously listed) — OpenStreetMap-based, privacy-first (no account, no tracking), offline maps. Has vehicle profiles for car/bike/walk but no transit integration and no e-scooter mode. Niche: privacy-focused users; doesn't solve the multimodal problem.
+
 **Monetization:**
 - Freemium with saved vehicle profiles
 - Partnership with transit agencies to surface underused stops
