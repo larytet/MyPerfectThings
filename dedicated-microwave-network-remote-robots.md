@@ -1,6 +1,6 @@
 # Dedicated Microwave Network for Remotely Operated Robots
 
-A private, line-of-sight microwave network built as the shared low-latency backbone for remote operation. The original idea was remote driving of cars/taxis/trucks. That market does not scale on public networks (see [Why not taxis](#why-not-taxis)), so the focus shifts to **more general robotic services**: delivery robots, robotic construction equipment, and interbank links as the revenue anchor that pays for the network.
+A private, line-of-sight microwave network built as the shared low-latency backbone for remote operation. The original idea was remote driving of cars/taxis/trucks. That market does not scale on public networks (see [Why not taxis](#why-not-taxis)), so the focus shifts to **more general robotic services**: delivery robots, robotic construction equipment, and robots for interior works in construction.
 
 ## Core Concept
 
@@ -11,10 +11,10 @@ A private, line-of-sight microwave network built as the shared low-latency backb
 
 | Workload | Round-trip target | Notes |
 |---|---|---|
-| Interbank / trading links | microseconds to 1 ms | Pays the most per bit; needs the shortest path |
 | Fast vehicles (130 km/h) | 5-50 ms | 3 cm/ms; driver reaction is 500 ms-1 s |
 | Delivery robots (sidewalk, low speed) | 50-200 ms | Mostly supervised autonomy; humans handle edge cases |
 | Construction equipment (excavators, cranes, dozers) | 20-100 ms | Slow, heavy, bounded work site |
+| Interior works robots (drywall, painting, tiling, drilling) | 20-100 ms | Slow, precise; mostly supervised autonomy; indoor radio is the hard part |
 | Forklifts / yard vehicles | 100-500 ms | Slow, confined area |
 
 ## Applications
@@ -35,13 +35,15 @@ A private, line-of-sight microwave network built as the shared low-latency backb
 * Fleet use: tele-operation for hard tasks, autonomous repetitive tasks (grading, trenching), operator takes over on exceptions.
 * Sites in remote areas often have clear line-of-sight, which is the ideal case for microwave.
 
-### Interbank links
+### Interior works in construction
 
-* Dedicated microwave links are the established low-latency medium for finance (the Chicago-New Jersey type routes): lower latency than fiber because radio travels near the speed of light in air on a straighter path.
-* Customers pay a large premium per bit. This can **subsidize the robot network** (shared towers, shared spectrum licenses, shared maintenance crews).
-* Interbank traffic gets priority and its own channels; robot traffic uses separate channels on the same towers.
-* Weather (rain fade) is the weak point: needs a fiber or lower-band fallback for finance, and a safe-stop for robots.
-* To confirm: scope of "interbank" - low-latency trading links, or inter-bank settlement/wire traffic (which is not latency critical and probably not a fit).
+* Robots for finishing work inside buildings: drywall hanging and taping, plastering, painting, tiling, floor laying, ceiling drilling and anchor setting, layout marking, MEP (pipes, ducts, cable trays) installation support, material hauling between floors.
+* Repetitive, physically hard, and ergonomically bad work (overhead drilling, sanding). A remote expert operator can serve several robots and several sites; the robot does the repetitive part autonomously and calls the operator for exceptions (odd corners, rework, quality sign-off).
+* Precision matters more than speed: the BIM model gives the robot the plan, and the operator corrects deviations (as-built differs from the drawing).
+* **Radio is the hard part.** Microwave needs line of sight; concrete, rebar, and elevator shafts block it. Scheme: microwave brings the link to the building (roof or facade node), then an indoor network distributes it: wired drop per floor (fiber/Ethernet in the stairwell or shaft), then short-range mesh nodes or private 5G/Wi-Fi 6/7 per floor. Temporary nodes move with the work front, floor by floor.
+* The microwave network's role: a dedicated, low-latency, high-capacity backhaul to the site, independent of the site's internet. The last 50 meters is a different problem.
+* Safety: tool-wielding robots near workers; heartbeat and watchdog, geofenced work zones, and the safe stop on link loss are mandatory.
+* Business angle: sell finished square meters (price per m2 of drywall/paint) instead of robots or bandwidth, with the operator pool and network hidden inside.
 
 ### Other (from the original idea)
 
@@ -98,14 +100,15 @@ Operating taxis remotely is the hardest case - kept here as the reason for the p
 
 ## Business Model Ideas
 
-* Anchor tenant: interbank/trading links (high margin) fund tower build-out.
 * Network-as-a-service for robot operators: per-robot or per-Mbps with latency SLA.
 * Teleoperation-as-a-service: network + operators + retrofit kits for construction firms.
 * Site-in-a-box: portable node + cameras + operator cabin rental for temporary construction sites.
+* Finishing-as-a-service: interior works priced per m2, delivered by robots plus remote operators.
 
 ## Open Questions
 
-* Which one to start with: construction (clear sites, slow machines, high operator cost savings) looks like the best first market.
+* Which one to start with: construction (clear sites, slow machines, high operator cost savings) looks like the best first market. Exterior/earthmoving is easy for microwave; interior works pay off but need the indoor distribution layer.
+* Without an anchor customer paying a premium (the finance-style low-latency link), what pays for the towers? Construction sites are temporary, so portable nodes and per-site pricing matter.
 * Spectrum licensing and tower permitting costs per country.
 * Insurance and liability for remote-operated machines.
 * Competition: 5G private networks (campus/site networks) are the obvious alternative for construction; what does microwave offer beyond that (range, latency, ownership)?
