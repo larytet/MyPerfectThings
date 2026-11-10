@@ -215,6 +215,45 @@ Limits and cautions:
 *  **Which skate is the stance skate** is decided by the load: each skate shares its load fraction, and the one carrying more than about 70% of the weight is the reference. This needs the calibration above, so a first-use calibration standing on both feet is part of setup.
 *  **Data volume is small.** About 20 bytes at 100 Hz is 2 kB/s, well within BLE (PR-10).
 
+### 6.6 Motor wheel options: one big wheel, or two or three small ones
+
+Question: instead of one 85 mm motor wheel, use two or three small motor wheels, or adapt a large skate wheel? Findings from the web search and my own scaling. Listing figures come from sellers and mix rated and peak power, so treat them as indicative.
+
+**What the market gives**
+
+*  **Skateboard hub motors exist at 70-90 mm but are far too heavy and powerful.** OrangeRed 5230SD 83 mm: 350 W rated, 4.2 Nm max, 815 g. OrangeRed 4230SD 70 mm: 150 W, 575 g. An MP 83 mm hub: listed 8 Nm, 0.9 kg, 1.5 kW rated. Maytech 90 x 55 mm: 1,000 W max, 1,000 g, 24-36 V. [OrangeRed (Hobbywing)](https://www.hobbywing.com/en/products/orangered-skateboard-motor156), [MP 83 mm](https://reach.dog/shop/dongguan-freerchobby-coltd/products/mp-83mm-hub-motor-8nm-torque-for-electric-skateboard), [Maytech 90 mm](https://reach.dog/shop/michobbycom/products/mto9055rh-60-ha-maytech-90mm-60kv-hub-motor-1000w)
+*  **Skate wheels are narrow.** A skateboard hub motor is about 55 mm wide (Maytech), while an inline skate wheel is about 24-30 mm wide (my knowledge, to verify), so a skate hub motor has about half the active length, and torque scales roughly with diameter squared times length.
+*  **I found no 80-100 mm gearless hub motor at 12-24 V with a published torque and mass.** The closest listings were a 5.5 inch (larger) 24 V hub at 3.2 Nm and 2.0 kg, a geared 24 V AMR wheel module, and the CubeMars R80 outrunner (87 mm, 4 Nm, 354 g, but 48 V). A custom motor wheel is still needed. [CubeMars R80](https://store.cubemars.com/products/r80)
+*  **Atmos Gear (the closest product) uses one motor, in the middle wheel, with a 110 mm wheel.** Rated 18 mph and 16 miles. The battery is a separate pack worn in a bag, because the company says an earlier prototype with the battery inside the skates weighed far too much (it cites about 7 kg at the feet). Their stated added weight is about 700 g (1.5 lb) over conventional skates. The page is ambiguous whether that is per pair or per frame. [Atmos Gear store](https://www.atmosgear.com/store/p/rollers)
+
+Atmos Gear's choice of a belt-style pack matches the Option B recommendation from your weight argument. If the 700 g is per pair (about 350 g per skate), it is close to my estimate of about 290 g per skate, with a different design. If it is per frame, their skates are much heavier than mine.
+
+**Required torque is small (estimate).** At 5 m/s, 20-30 W of mechanical assist per skate is about 4-6 N at the road. At the wheel that is 0.17-0.26 Nm for an 85 mm wheel and 0.22-0.33 Nm for 110 mm. Hill and start peaks of 2-3 times that, so about 0.5-1 Nm peak. The skateboard motors' 4-8 Nm is several times too much. Their mass is the problem, because they are built for 150-1,000 W.
+
+**Mass scaling (estimate).** The listed motors give 0.26 W/g (150 W, 575 g), 0.43 W/g (350 W, 815 g) and 1 W/g (1,000 W, 1,000 g). At 60 W per skate that gives 60-230 g of motor depending on how hard it is driven, so my 260 g motor wheel assumption (including the wheel and bearings) is plausible, and not conservative if heat is a problem.
+
+**Options compared**
+
+| Option | Torque (relative to one 85 mm wheel) | For | Against |
+|---|---|---|---|
+| One 85 mm motor wheel (current spec) | 1.0 | simple, one driver per skate | torque limited by the narrow width, custom motor |
+| **One 110 mm motor wheel** (Atmos Gear approach) | about 1.7 (diameter squared) | validated by a product, bigger wheel rolls better, more rotor volume, 3x110 and 4x110 frames common | wheel and frame heavier, 195 mm frames only for the longer sets |
+| One 125 mm motor wheel | about 2.2 | most torque and rollover, 3x125 frames take 165 and 195 mm mounts | heaviest wheel, large wheel changes the feel and turning |
+| Two 85 mm motor wheels per skate | about 2.0 | torque shared, more heat surface, each motor half the mass, a redundancy, weight spread along the frame | two drivers, two sets of halls, 2x the motor parts and cost, more cables |
+| Three small motor wheels per skate | about 3.0 | most torque, each motor very light | most cost and complexity, little benefit if one 110 mm wheel is enough |
+
+*  **Two or three small motor wheels help where torque is the limit.** They add motor length (the skate wheel is narrow), spread the heat and let each motor be small. They do not reduce the total motor mass for the same total torque, and they add bearings, axles, halls and driver channels. The electronics cost is small (a driver chip is about $3), the mechanical cost is not.
+*  **Sharing one driver between two wheels** is possible in principle, since both wheels on one frame turn at the same speed, but the rotor positions are not locked, so I would use one driver per motor.
+*  **Recommendation:** v1 = one 110 mm motor wheel in the middle of a 3x110 frame (the Atmos Gear layout), because the diameter squared gives about 1.7 times the torque of 85 mm for no extra parts. Keep two motor wheels per skate as the fallback if the thin motor lacks torque or overheats in tests.
+
+**Large wheels and frames I could adapt**
+
+*  Freeskate frames usually take 80-110 mm wheels, longer frames take 100-125 mm. [SkatePro frames](https://skatepro.com/c142.htm)
+*  195 mm mounting came with 100-110 mm wheels because the longer base lowers the centre of gravity. [Powerslide on 195 mounting](https://powerslide.com/blogs/technologies/195-mounting), 165 mm is still used, for example the Powerslide Megacruiser 125 range. [Rollerenligne on 165 mm](https://www.rollerenligne.com/en/materiel/is-2015-the-comeback-year-of-165-mm-mounting/)
+*  Frames to look at: Powerslide Core X-perience 11.8 inch, 3x125 mm, 165/195 mm. Powerslide racing 195 frames in 3x110 and 4x110. Bont 110 mm x 3 frame. Endless 110/125 frames. [Powerslide Core X-perience](https://powerslide.com/products/core-x-perience-11-8-3x125-195-165), [Powerslide racing 195](https://b2b.powerslide.com/collections/powerslide-racing-195-frames), [Bont 3x110](https://korea.bont.com/products/110mm-x-3-wheel-inline-skate-frame), [Endless 110/125](https://locoskates.com/products/endless-110-125-frames-silver), [Powerslide frames](https://powerslide.com/collections/inline-skate-frames?page=9)
+*  The boot and frame must match the mounting spacing (165 or 195 mm), and each frame lists its maximum wheel size. Axle and bearing standard (I believe 608 bearings and an 8 mm axle, to verify on the chosen frame).
+*  Wheel speed at 5 m/s: about 1,120 rpm for 85 mm, about 870 rpm for 110 mm, about 760 rpm for 125 mm, so a bigger wheel also means a slower, easier motor to drive.
+
 ## 7. Wiring for Option B (battery on a belt or in a bag)
 
 You asked how the wiring works if the battery is not in the skate, and whether to pin the wire to a leg with strips. Short answer: no pins and no adhesive strips. Use a sleeve or straps, and design the cable so that it can let go safely.
@@ -454,7 +493,7 @@ With the remote: Option A about $219, Option B about $258. The remote adds about
 
 ## 10. Risks and open questions
 
-1. **Motor wheel.** An 85 mm gearless hub motor with enough torque at 60 W, in a skate-wheel width, probably does not exist off the shelf. A geared motor is heavier and noisier. This is the biggest technical risk.
+1. **Motor wheel.** A gearless hub motor at 85-125 mm and 12-24 V in a skate-wheel width, with enough torque at 60 W, probably does not exist off the shelf (section 6.6). A geared motor is heavier and noisier. This is the biggest technical risk. A 110 mm wheel (the Atmos Gear layout) or two motor wheels per skate are the ways to relieve it.
 2. **Weight on the foot.** About 290 g net per skate in Option B and about 460 g in Option A. Skaters lift and swing the leg every stride, so even Option B is significant and needs a trial with skaters. Target 250 g.
 3. **Cogging and drag.** A hub motor drags when unpowered (cogging and iron loss), so the skates may be slower than normal skates with the assist off. Needs measuring.
 4. **Push detection.** Distinguishing a push from a glide or a bump with an IMU and a frame load sensor is untested.
