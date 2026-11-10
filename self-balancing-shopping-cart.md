@@ -56,6 +56,35 @@ I searched the web and crowdfunding coverage. I did not find a self-balancing tw
 *  **Gyroor scooter with a large middle basket** - up to 300 lb load, 30 miles range (vendor). [Cool Hunting](https://coolhunting.com/buy/silk-lantern/)
 *  **Sharper Image sit-down scooter with basket** and **HOVSCO Porto Max** - retail listings, marketing copy only. [Sharper Image](https://sharperimage.com/products/sit-down-electric-scooter-with-basket), [HOVSCO](https://hovsco.com/products/porto-max-electric-scooter)
 
+## Tandem layouts (front and rear wheel, like a kick scooter)
+
+Most of the products above have the wheels on the sides. A tandem layout can balance too. There are three methods; only the first two work at a standstill. I found no commercial or crowdfunded tandem balancing cart or scooter in this search.
+
+**Steering-based (no gyro, low weight)**
+
+*  **Honda Riding Assist-e (2017 concept)** - a motorcycle that balances by small computer-driven steering corrections, with an adjustable headstock rake to amplify them. No gyroscopes, to save weight. It can balance stationary and roll at walking pace without a rider. The balance algorithms are said to come from Honda's Uni-Cub and ASIMO work. Concept only, no production commitment. The best reference for a tandem layout without a gyro. [Electrek](https://electrek.co/2017/09/29/honda-introduces-riding-assist-e-self-balancing-electric-motorcycle/), [Cycle World](https://www.cycleworld.com/honda-self-balancing-motorcycle-rider-assist-technology), [Visordown](https://www.visordown.com/motorcycle-news-new-bikes/honda-riding-assist-e), [Visordown on the patent](https://www.visordown.com/news/new-bikes/honda-riding-assist-e-even-madder-patent), [Fox News](https://www.foxnews.com/auto/hondas-self-balancing-bike-stands-alone), [Motorcycle News](https://motorcyclenews.com/news/new-tech/honda-auto-steering)
+*  **Research: bicycle robot at zero forward speed** - a paper that regulates the frame's tilt by rotating the front wheel, with no mechanical regulator. [SAGE journals](https://journals.sagepub.com/doi/10.5772/56701)
+
+**Reaction wheel (flywheel) at a standstill**
+
+*  **Murata Boy** - a bicycle robot with a flywheel. An academic paper calls it the most striking flywheel bicycle robot: it stands still, tracks a curve and climbs a slope. I did not get a direct source for the robot itself, only the paper's description. [Pink Tentacle](https://pinktentacle.com/?p=766), [Seiko unicycle robot for comparison (Gizmodo)](https://gizmodo.com/little-seiko-unicycling-robot-caught-on-video-unicycli-5056143)
+*  **Aoki2001 self-balancer** - a hobby bicycle-style robot with a reaction wheel that balances at a complete standstill. [Hackaday](https://hackaday.com/2012/06/29/self-balancer-does-it-differently-than-were-used-to-seeing)
+*  **Self-stabilizing autonomous bicycle (2012 diploma thesis)** - a driverless bicycle with a reaction wheel and an IMU. The reviewer noted the ground clearance is poor. [Hackaday](https://hackaday.com/2012/03/25/self-stabilizing-autonomous-bicycle)
+*  **Reaction-wheel bicycle thesis (UMT Lahore, 2023)** - balances at several tilt angles, with lower power than other methods. [UMT eScholar](https://escholar.umt.edu.pk/items/c8fb2028-6c6b-4f74-b921-72d899c8c716)
+
+**Gyroscope (control moment gyroscope, CMG)**
+
+*  **Lit Motors C-1** - an enclosed two-wheeled vehicle that balances with gyroscopes (about 800 Nm of torque quoted for the C-1), at a standstill too. Orders opened in 2023. The best-documented production-oriented tandem balancer, but a vehicle, not a cart. [Wikipedia](https://en.wikipedia.org/wiki/Lit_Motors), [PopSci](https://www.popsci.com/self-balancing-two-wheeled-car/), [Electrify News](https://electrifynews.com/news/moto/meet-the-new-self-balancing-fully-enclosed-electric-motorcycle), [Scooter.uk.com 2023 orders](https://scooter.uk.com/news/lit-motors/lit-motors-starts-accepting-orders-2023/)
+*  **Lit Motors Kubo** - a two-wheeled electric cargo scooter that went to Kickstarter in 2013. Lit Motors calls it self-balancing, and one database (Bikez) says it uses two gyroscopes to stay upright when stopped. The 2013 launch coverage does not mention gyroscopes, so treat the balancing claim as unconfirmed. A cargo scooter, so the closest tandem relative to this idea. [Lit Motors Kubo page](https://www.litmotors.com/kubo-scooter), [New Atlas](https://newatlas.com/lit-motors-kubo-electric-cargo-scooter/29858), [ETA](https://www.eta.co.uk/news/kubo-an-electric-cargo-scooter-for-the-city), [Autoblog](https://www.autoblog.com/2013/11/20/lit-motors-kubo-electric-cargo-scooter-video/), [Bikez](https://bikez.com/models/lit_motors_kubo.php)
+*  **Gyroscope bicycle (student project)** - a gyroscope with a PID controller on a two-wheeler. [Google Slides](https://docs.google.com/presentation/d/1V8crsmxO86pbZ3eGFERCfk2_boE84A-y0Xr6Vgp7CIU/htmlpresent)
+*  CMGs cost more and use more energy than reaction wheels (from a Turkish-language paper listing the balancing methods). [DergiPark](https://dergipark.org.tr/en/download/article-file/822540)
+
+**Self-stable (no actuator, only while moving)**
+
+*  **Northeastern self-stable bicycle** - a bicycle built to cancel the gyroscope effect with counter-rotating discs and minimal trail. It cruises riderless, but only while moving, so it does not solve the standstill problem. [Northeastern](https://coe.northeastern.edu/news/self-stable-bicycles)
+
+Takeaway: steering-only balancing (Honda) is the lightest, and reaction wheels (Murata, hobby builds) are the cheapest standstill option. A gyro (Lit Motors) works but is heavy. Honda's approach is only shown at the concept stage. The Kubo is the one tandem cargo product that went to Kickstarter.
+
 ## Gap
 
 The follow-me robots (Gita) balance on two wheels but cost thousands of dollars and are not carts. The cheap powered carts and scooters with baskets are cheap but do not balance, so a heavy side load still tips them. Self-balancing rideables (Solowheel, Segway) prove the balancing is cheap and fundable, but nobody has put a fold-flat, hang-bags-on-the-handle, balancing cart under $500 on the market, as far as I could find. Nor did I find a store fleet of such carts. The scooter-with-bags use case (push on flat ground, coast downhill, uneven bag loads) seems untouched.
