@@ -62,6 +62,8 @@ Priority: M = must, S = should, C = could.
 | FR-20 | **Matched assist:** left and right assist gains are equal within 10%, except for the push-driven part (each skate assists its own push). Assist is not applied while both skates are loaded and gliding, so the skater is not pulled sideways. | S |
 | FR-21 | **Shared speed estimate:** each skate fuses its own wheel speed with the other's for the speed cap, regeneration and slope estimate, since the skates turn at different speeds in a curve. | S |
 | FR-22 | **Time base:** the skates' clocks are aligned to within 5 ms, for stride phase analysis and for logs. | C |
+| FR-23 | **Stance reference:** the skate that is on the ground (loaded, wheels rolling without slip) shares its state (ground speed, slope, gravity direction, heading rate) with the other skate. The other skate uses it while its own sensors are unreliable (in the air, swinging, or slipping during the push). | S |
+| FR-24 | **Load calibration from single support:** when one skate is unloaded (recovery phase), the loaded skate's frame load equals the skater's full weight. The skates use this to correct the gain and offset of both load sensors continuously. | C |
 
 ### 4.2 Performance
 
@@ -76,6 +78,7 @@ Priority: M = must, S = should, C = could.
 | PR-7 | Operating temperature -10 to 45 C. |
 | PR-8 | Remote: button press to torque change <= 100 ms; stop button to assist off <= 100 ms (the skates also have a local stop). |
 | PR-9 | Remote battery life >= 20 hours of use, charging <= 1.5 hours, mass <= 35 g. |
+| PR-10 | Stance state is exchanged at about 100 Hz, as a summary of about 20 bytes (not raw IMU data), with a total delay of 60 ms or less, and timestamps aligned to 5 ms (FR-22). |
 
 ### 4.3 Beginner mode details
 
@@ -173,7 +176,7 @@ The cable carries power only. The skates coordinate over BLE, so there is no dat
 ### 6.3 Control logic
 
 *  **Push detection:** the load on the skate rising while the skate accelerates forward and the IMU shows the push phase (lateral push, yaw, roll pattern). Assist torque follows the push signal and fades out when the load drops.
-*  **Slope estimate:** the forward axis accelerometer measures g sin(slope) plus the true acceleration. Subtract the acceleration from the motor hall speed (its derivative) to get the slope, then low-pass it over a few strides.
+*  **Slope estimate** (uses the stance skate's data when the skate is not the grounded one, section 6.5): the forward axis accelerometer measures g sin(slope) plus the true acceleration. Subtract the acceleration from the motor hall speed (its derivative) to get the slope, then low-pass it over a few strides.
 *  **Assist torque:** torque = gain(mode, level) x push signal x slope factor, capped by the speed limit, the battery state and the temperature. Slew-rate limited.
 *  **Regeneration:** above the set speed on a downhill, a ramped braking torque, limited by battery state of charge (zero regen when the pack is above 4.1 V per cell) so that the DC bus voltage cannot spike.
 *  **Safety interlock:** any fault, a fall, a missing load or a lost sensor -> torque off, freewheel.
@@ -190,6 +193,27 @@ The two motors do not need to be synchronized like the wheels of a car: each ska
 *  **Link timing.** BLE connection intervals of 15-30 ms give a 30-60 ms worst-case delay between the skates. That is fine for shared state and speed averaging, and not fast enough for torque coordination in the same millisecond, which the design does not need. Clock alignment to 5 ms comes from the remote's or the link's timestamps (FR-22).
 *  **Mismatch checks.** The skates compare level, mode and software version at connection and refuse to assist if they differ (for example, after a firmware update that reached only one).
 *  **Not covered yet:** a wired link between the skates is rejected (cable between the legs, section 7.1). If BLE latency or dropouts turn out too poor in tests, a short-range alternative (optical or capacitive coupling through the body) would need a study.
+
+### 6.5 Stance-skate reference (cross-sensing)
+
+The idea (yours): while one skate is on the ground its sensors give clean data that the other skate cannot get for itself. A skate in the air or swinging forward has an IMU full of leg motion and a wheel that is not rolling at ground speed. The grounded skate is a reference for the pair.
+
+What the stance skate can supply to the other one:
+
+*  **Ground speed.** Its wheel rolls without slip, so its hall-sensor speed is the true speed. The other skate's wheel speed is wrong while it is in the air or slipping at push-off, which matters for the speed cap and for the push detection.
+*  **Slope and gravity direction.** With the wheels on the road, the accelerometer minus the wheel-speed derivative (6.3) gives a clean slope estimate. The swinging skate cannot do this. It can use the stance skate's slope and the known gravity direction to orient its own IMU.
+*  **Push phase.** One skate loaded and the other unloaded identifies the single-support phase and which foot is the stance foot. The loaded skate's yaw and roll rate then tell the other skate when its push begins.
+*  **Relative leg motion.** The difference between the two IMU orientations gives the angle between the feet while one is grounded, a cue for stride width and push angle (for the technique cues, section 7b.3).
+*  **Load calibration.** During single support the loaded skate carries the skater's whole weight, a known reference for correcting the other load sensor's gain and drift (FR-24). Strain gauges drift with temperature, so continuous calibration is useful.
+*  **Fault cross-check.** If the stance skate reports speed 0 while the other reports fast motion (or the opposite), one of them has a sensor fault, and the assist goes off (SR-12).
+
+Limits and cautions:
+
+*  **Skate orientation is not body orientation.** In a V-shaped push the skates point in different directions, so heading and lean from one skate are not the skater's. Share quantities that do not depend on the foot angle (speed, slope, weight) and be careful with heading and roll.
+*  **Delay.** The stance data arrives 30-60 ms late over BLE. For a push of 300-500 ms that is acceptable for speed, slope and calibration, and too slow for fast torque decisions, which stay local (6.4).
+*  **Two-foot glide:** both skates are references, and the pair averages them (FR-21).
+*  **Which skate is the stance skate** is decided by the load: each skate shares its load fraction, and the one carrying more than about 70% of the weight is the reference. This needs the calibration above, so a first-use calibration standing on both feet is part of setup.
+*  **Data volume is small.** About 20 bytes at 100 Hz is 2 kB/s, well within BLE (PR-10).
 
 ## 7. Wiring for Option B (battery on a belt or in a bag)
 
