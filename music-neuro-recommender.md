@@ -162,6 +162,40 @@ A truck or coach driver on a six to ten hour shift has two opposing problems: dr
 
 **First experiment:** a driving simulator with a monotonous highway task, 60 to 90 minutes, comparing silence, a fixed playlist, and adaptive generated music. Measure lane variance, reaction time, pulse and HRV, and self-rated alertness and tension.
 
+## Use case: psychology and psychiatry, working with autistic children
+
+A therapist, psychologist or child psychiatrist works with autistic children whose sensory profiles differ sharply from one child to the next. Some are distressed by sounds that others ignore; some use music to self-regulate; some avoid it entirely. Many cannot say how they feel in words. That is the "long tail of wiring" problem in its most acute form, and the one place where a per-child model and objective signals matter most. This is a tool *for the clinician and the family*, not a replacement for therapy.
+
+**What the system could do**
+
+- **Find a safe, calming sound palette for one child.** Start with very simple generated sounds (a single timbre, narrow pitch range, soft attack, slow and predictable rhythm) and vary one parameter at a time. Watch pulse and electrodermal response (skin sweat) and the child's behaviour. Learn which sound envelope, pitch register, tempo and source are calming, neutral or aversive for this child.
+- **Detect distress early.** Rising heart rate and skin response can flag anxiety or sensory overload before it shows in behaviour. The system lowers intensity, simplifies or stops the sound, and alerts the adult.
+- **Support regulation and transitions.** Pre-agreed calming music for known hard moments (arriving at school, a change of activity, bedtime), with the child's own response deciding the pattern.
+- **Give the clinician data.** Per-session logs of which sound patterns calmed or disturbed the child, which can feed the therapist's own judgement and the family conversation.
+- **Population learning, carefully.** Pooled and consented data may show which patterns calm many autistic children, and which sound features are commonly aversive. Autism is a spectrum, so group averages must not override the individual profile.
+
+**What exists (search 2026-11, summaries only)**
+
+- **Music therapy evidence.** A [2022 meta-analysis](https://pubmed.ncbi.nlm.nih.gov/36276324/) concludes music therapy improves social skills in autistic children, though whether the effect lasts is unclear. A [2024 meta-analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11106491/) of randomised trials (1,457 children) reports gains in language communication and social skills, with high heterogeneity (I2 = 80% for language). A [2025 trial review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12034304/) looks at what shapes the effect. The reviews I saw did not report anxiety as a main outcome, so anxiety reduction by music is an evidence gap here.
+- **Wearable anxiety detection.** The [Anxiety Meter](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8591877/) shows heart-rate-derived anxiety level; in a pilot randomised trial (28 children) the feedback was associated with more deep-breathing attempts. Researchers on biomusic note that [separating anxiety from excitement](https://www.smithsonianmag.com/innovation/can-biomusic-offer-kids-autism-new-way-communicate-180968649/) is an open question, since the two share many physiological signals.
+- **Sensory overload detection.** A [University of Bath project](https://researchportal.bath.ac.uk/en/projects/explore-sensory-overload-detection-with-biosensing-wearables/) explores a wearable that alerts a parent or teacher; the WPI [AuSense prototype](https://users.wpi.edu/~aadiga/docs/ausense-poster.pdf) uses personalised light, sound and heart-rate thresholds.
+- **Music with a physiological trigger.** App4Autism plays music when it detects loud noise and heart-rate rise (no effectiveness evidence seen). A [WIRN 2019 study](https://iris.unitn.it/bitstream/11572/319252/1/WIRN_2019_paper_47.pdf) used sensorised garments to collect ECG during music therapy sessions while limiting sensory load.
+- **Sound sensitivity and preference.** A [2022 review](https://www.frontiersin.org/articles/10.3389/fnins.2022.924806) separates hyperacusis (loudness discomfort), misophonia (irritation at specific sounds) and phonophobia (fear of sounds) and links them to autism. A small [2009 study](https://pubmed.ncbi.nlm.nih.gov/19673802/) of severely autistic adults found the same basic music preferences as controls (familiar and pleasant music preferred). A [McGill study](https://escholarship.mcgill.ca/downloads/37720j083) found similar genre variety in autistic and typically developing adolescents, with possibly different uses of music. A 2025 University of Delaware thesis notes some autistic people engage with music despite sound sensitivity while others avoid it, and highlights sound envelope, pitch register and source.
+- **Not found:** a system that reads heart rate and skin response from autistic children and adapts generated music in real time, nor generative-music tools tested with autistic children. The closed loop appears largely unexplored.
+
+**Hard problems specific to this use case**
+
+- **Consent and assent.** Parents or guardians consent, and the child's own signals of "stop" or discomfort (pulling off a sensor, covering ears, moving away) must override the system. Many children cannot report distress, so the system must err towards stopping.
+- **Sensors on a sensitive child.** A wrist or finger sensor can itself be aversive, and some children will remove it. A soft garment, ring or bracelet option, and gradual habituation, matter. Movement and stimming create noise in pulse data.
+- **Anxiety versus excitement.** Heart rate and skin response rise in both, so use the child's behaviour and the caregiver's tag as additional signals, and prefer individual baselines over fixed thresholds.
+- **Do not train distress.** Exploration (trying new sounds to learn what works) must never expose the child to loud, sudden or known-aversive sound. Start from known-safe sounds, change one small step at a time, and set hard loudness caps.
+- **Spectrum, not average.** Population findings must not be used as norms or as a standard for what an autistic child "should" like. Personal profile first.
+- **Clinical claims.** Do not claim to treat autism or anxiety. Position it as a calming aid and a data source for the clinician, and run any outcome claims through proper trials with ethics approval. Sensitive health data of children has the strictest privacy rules (for example GDPR for children, HIPAA and COPPA in the US); check what applies.
+- **Neurodiversity view.** Many autistic people object to interventions that aim to remove autistic traits. Involve autistic adults and families in the design, and aim the tool at comfort and regulation chosen by the child and family, not at making the child behave less autistically.
+- **Outcome measures.** Beyond pulse: caregiver and clinician ratings, standard anxiety and sensory questionnaires, frequency and duration of meltdowns, sleep, and the child's own choices to use or avoid the sound.
+
+**First study:** a small within-child pilot, with a clinic and consenting families: baseline silence, a fixed calm playlist, and an adaptive generated palette, in short sessions in random order. Measure pulse, skin response, caregiver-rated comfort, and the child's behaviour.
+
 ## Open questions
 
 - Does a fragment's effect survive without context (the build-up before the drop)? Window size matters.
