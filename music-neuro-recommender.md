@@ -196,6 +196,27 @@ A therapist, psychologist or child psychiatrist works with autistic children who
 
 **First study:** a small within-child pilot, with a clinic and consenting families: baseline silence, a fixed calm playlist, and an adaptive generated palette, in short sessions in random order. Measure pulse, skin response, caregiver-rated comfort, and the child's behaviour.
 
+## Dopamine and music: the mechanism behind "hits the wiring"
+
+Music reward has a measurable chemical basis. This section records the evidence (search 2026-11, summaries only) and what it means for the design.
+
+**Evidence**
+
+- **Dopamine is released while listening (imaging).** [Salimpoor et al., 2011](https://www.zlab.mcgill.ca/publications/docs/salimpoor_2011_nn.pdf) used PET with raclopride, a tracer that binds D2 dopamine receptors and is displaced by dopamine, on 8 volunteers who reliably get chills from certain pieces. Dopamine release in the striatum rose during chills. It occurred in two places at two times: the dorsal striatum (caudate) during the roughly 15 seconds of anticipation before the climax, and the ventral striatum (nucleus accumbens) at the peak itself. Favourite music displaced more tracer than neutral music. The music was instrumental, so voices are not required. Chill intensity tracked heart rate, breathing and skin response. Caveats: n = 8, and the claim that people without chills show the same effect comes from a press interview, not the paper's data.
+- **Dopamine is causal for music pleasure (drug study).** [Ferreri et al., 2019, PNAS](https://pubmed.ncbi.nlm.nih.gov/30670642/) gave 27 healthy people levodopa (raises dopamine), risperidone (blocks it) and placebo, double-blind and within subject. Levodopa raised music pleasure and motivation, including willingness to pay; risperidone lowered both. Chills and skin response were indirect measures, so the neurochemical reading needs some caution. Naltrexone (an opioid blocker) did not appear in the results I saw, so the opioid side is unchecked.
+- **Parkinson's disease and rhythm.** Rhythmic cueing with music or a metronome helps gait in some patients, but response varies a lot between individuals. One [review](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10306373) proposes individualised cueing via mobile technology, and [individualised music-based cueing](https://www.researchgate.net/profile/Simone-Dalla-Bella/publication/324783869_Individualization_of_music-based_rhythmic_auditory_cueing_in_Parkinson%27s_disease/links/5b169ef7aca272d43b7f162e/Individualization-of-music-based-rhythmic-auditory-cueing-in-Parkinson%27s_disease.pdf) is a related paper. A [2025 gait pilot](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC12110284/) with 9 people found a non-significant trend (p > 0.063).
+- **Not found:** work linking dopamine gene variants (for example COMT or DRD2) to music reward or to response to musical cueing.
+
+**What it means for the design**
+
+- **Anticipation is part of the effect.** Dopamine rises before the peak, so a fragment should be scored together with its build-up, not alone. That sets a minimum window size (tens of seconds) and favours the planner choosing sequences with tension and release over single isolated clips.
+- **It fits some target states better than others.** Dopamine explains reward, pleasure, motivation and drive, so the happiness, energy and arousal states are the natural fit. Stress reduction and sleep are mostly about the autonomic nervous system (heart rate, HRV), and dopamine does not directly explain them. Do not use "dopamine" as the model for the calming use cases.
+- **Chills and skin response are the cheapest proxies.** Both tracked the dopamine-linked peak in the studies above, and a watch can read skin response or heart rate. They give a per-listener reward signal without a scanner, though they are indirect.
+- **Individual differences are expected.** Dopamine tone differs between people, and the drug study shows the same music lands differently when it changes. That supports a per-listener profile and a long tail of tastes. The gene-variant link is unproven.
+- **Medication is a confounder and a safety flag.** People on antipsychotics (dopamine blockers) or Parkinson's drugs (dopamine boosters) may respond differently, as risperidone and levodopa did in the study. Record medication where consented, treat results from those users separately, and do not draw population conclusions that mix them in.
+- **Reward-seeking risk.** A system that finds and repeats what maximises dopamine reward could drift toward compulsive use. Cap session length, avoid pushing intensity up over time, and keep the listener's wellbeing, not engagement, as the objective.
+- **Do not claim to change dopamine levels.** The studies show music engages the dopamine system, not that a given track will raise or lower a person's levels in a measurable or therapeutic way. Avoid neurochemical claims in any product text.
+
 ## Open questions
 
 - Does a fragment's effect survive without context (the build-up before the drop)? Window size matters.
