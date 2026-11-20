@@ -101,13 +101,66 @@ Instead of guessing brain responses from audio, measure the outcome directly and
 - Avoid medical claims ("treats anxiety") without evidence. Frame it as a relaxation tool, and show the user their own data.
 - A user whose stress rises during a track should be able to stop it, and the system should treat a rise as a negative reward.
 
-**Related work (search 2026-11, summaries only)**
+**Related work (search 2026-11, summaries only, details unverified)**
 
-- [HeartDJ](https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1224&context=masters_theses) updates the generation prompt after each song from HRV and reports that AI music without biofeedback may raise stress.
-- [CAT](https://arxiv.org/pdf/2505.09872) generates relaxation music from context and stress level; its user study found stress reduction.
-- [Moodify](https://www.mdpi.com/2076-3417/12/21/11209) uses reinforcement learning toward a target emotion with per-session feedback, on existing tracks.
-- The [sleep device study](https://arxiv.org/pdf/2211.02592) uses a bandit over audio content with a physiological reward.
-- Not found: a study that pools generated-track parameters and watch HRV across a large population to learn which patterns work for many people. That is the new part here.
+Generated music and stress:
+
+- [HeartDJ thesis](https://digitalcommons.dartmouth.edu/masters_theses/205/): mixed. A significant RMSSD rise (p = 0.0277) in preliminary analyses, but in a later phase the condition with four AI-generated tracks showed a significant HRV decrease. Listeners found the AI tracks emotionally thin. It suggests AI music without biofeedback may raise stress.
+- [Context-AI Tunes](https://arxiv.org/pdf/2505.09872): generated music beat pre-selected relaxing music at reducing self-reported stress. No watch.
+- A [Frontiers AI-music paper](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1669029/pdf) reports anxiety effects, called preliminary by its authors.
+- A 500-student, 12-week trial is cited in a [critical review](https://pmc.ncbi.nlm.nih.gov/articles/PMC13740824) with HRV support. The primary paper was not found and randomisation is unconfirmed.
+- [NCT07359950](https://clinicaltrials.gov/study/NCT07359950): registered trial of music with AI voice guidance, HRV measured, no results yet.
+
+Wearable pulse in a closed loop:
+
+- [EarStreAM](https://arxiv.org/html/2609.19127v1): earable detects stress from pulse and starts an LLM-generated meditation. A demo, not a user study.
+- [Smartwatch haptic biofeedback](https://arxiv.org/abs/2507.02432): vibration timed slightly slower than live heart rate; first study found a heart-rate drop. Vibration, not music.
+- [Wearable Music2Emotion](https://arxiv.org/html/2508.04723): assesses emotion from AI-generated music with EEG, fNIRS and PPG; not closed loop.
+- Endel uses watch heart rate, activity, time and weather. A [hobby project](https://dev.to/arlejtech/i-built-a-desktop-app-that-reads-your-hrv-sleep-data-and-generates-a-unique-therapeutic-p7p) turns Amazfit HRV and sleep data into a daily soundscape. No GitHub repo pairing generative music with Apple Watch or Garmin data was found.
+
+Learning from feedback (existing tracks, not generated):
+
+- [Moodify](https://www.mdpi.com/2076-3417/12/21/11209): reinforcement learning toward a target emotion with per-session feedback.
+- [Sleep device study](https://arxiv.org/pdf/2211.02592): bandit over audio content with a physiological reward.
+
+Which patterns work (general music):
+
+- [Stress meta-analysis](https://pubmed.ncbi.nlm.nih.gov/31167611/): 104 randomised trials; physiological d = 0.38, psychological d = 0.55; larger effect on heart rate than blood pressure or hormones.
+- [2026 HRV review](https://pmc.ncbi.nlm.nih.gov/articles/PMC12976007): 24 randomised trials, 1,295 people; relaxing music raised the high-frequency HRV share, with largest gains in people with stress, anxiety or sleep problems.
+- Tempo: a [Tilburg trial](https://research.tilburguniversity.edu/en/publications/classical-beats-and-white-noise-unveiling-the-effect-of-different/) found slow classical music gave higher RMSSD than electronic or personal music, only at slow tempo. A [2017 study](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5718605/) linked slow tempo to lower heart rate and fast tempo to more sympathetic activity. No meta-analysis isolating tempo was found; preference, genre and mood also matter.
+
+Not found: a study that pools generated-track parameters and watch HRV across a large population to learn which patterns work for many people. That is the new part here.
+
+Design consequence: the HeartDJ decrease means control sessions need silence and human-made calm tracks as comparisons, not only generated tracks against each other. Slow tempo is the best-supported first knob to vary.
+
+## Use case: long-haul driver, focused and relaxed
+
+A truck or coach driver on a six to ten hour shift has two opposing problems: drifting into drowsiness on monotonous road, and building up tension and stress from traffic, schedule pressure and fatigue. The target state is **alert and calm**, which is neither "wake up" nor "relax". Music is already on in the cab, so it costs the driver nothing extra.
+
+**What the system does**
+
+- **Reads state** from the driver's smartwatch pulse (heart rate and HRV), optionally steering-wheel grip or lane-keeping data from the vehicle, time on the road, and time of day. Rising heart rate with falling HRV suggests tension; a slow heart rate with drifting HRV can suggest drowsiness (unsourced; needs validation on drivers).
+- **Chooses a direction** per moment: if drowsy, add gentle activation (somewhat faster tempo, more rhythmic and spectral movement, melodic change); if tense, lower tempo and density, soften attacks, calm harmonic movement; if in the target band, hold steady and avoid surprises.
+- **Plans over the shift**, not per track: alertness dips at predictable times (the early afternoon, the small hours, after long monotonous stretches), so schedule stimulation ahead of the dip and relaxation after stressful stretches.
+- **Learns per driver** which patterns hold them in the target band, using the same generate, measure, learn loop as in the stress variant, and pools results across drivers to find patterns that work for many.
+
+**Why this fits the idea**
+
+- Both signals are in the pulse and the driving context, so no brain scanner is needed.
+- The shift gives many hours of data per driver and a natural before/after structure.
+- A fleet is a ready population for finding which patterns work for a significant share of drivers, and one operator can run controlled comparisons.
+
+**Hard problems specific to driving**
+
+- **Safety comes first.** Music must never mask sirens, horns or engine and tyre sounds, never grab attention, and never produce sudden changes. Loudness limits and a hard cap on surprise are requirements.
+- **Do not hide fatigue.** Music that keeps a drowsy driver feeling awake can delay the decision to stop. The system should treat music as a minor aid, and when pulse and driving data say fatigue is high, recommend a break instead of playing more upbeat music. Check what the regulations say about driver working hours and fatigue management in the target market.
+- **"Relaxed" can mean "sleepy".** Calming a tense driver can tip into drowsiness, so the system needs a drowsiness signal as well as a stress signal, and must not use the sleep-inducing patterns from the sleep variant.
+- **Measurement noise.** Wrist pulse is affected by gripping the wheel, vibration and arm movement. Rely on trends over minutes, and consider a chest strap, a seat sensor or a camera-based driver monitor as sturdier signals.
+- **Outcome measure.** Heart rate and HRV are indirect. Better outcomes are lane drifts, reaction time on a short check, microsleep events, and the driver's own rating, measured in a driving simulator before any road trial.
+- **Ethics and labour.** A system that monitors a driver's body for an employer can become surveillance. Keep the data with the driver by default, share only aggregates with the fleet, and get explicit consent.
+- **Existing work:** driver fatigue detection from pulse and from cameras is an established field, and in-car music systems exist, but I have not searched for work that combines generated music with driver state. That search is still to do.
+
+**First experiment:** a driving simulator with a monotonous highway task, 60 to 90 minutes, comparing silence, a fixed playlist, and adaptive generated music. Measure lane variance, reaction time, pulse and HRV, and self-rated alertness and tension.
 
 ## Open questions
 
