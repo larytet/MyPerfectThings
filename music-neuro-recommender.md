@@ -61,6 +61,54 @@ None of these combines fragment-level effect prediction, multiple target states 
 - **Planner:** order fragments along a trajectory toward the target, with smooth transitions, and adapt when the signal says it is not working.
 - **Test first:** (a) does fragment-level matching beat track-level recommendation at predicting a held-out replayed passage? (b) for sleep, does a personalised sequence shorten time to sleep onset against a generic playlist? Both are cheap to measure before building a service.
 
+## Variant: generate simple tracks, measure stress with a watch, learn across the population
+
+Instead of guessing brain responses from audio, measure the outcome directly and let the data say which patterns work. Start with one state, stress reduction, because a smartwatch gives an objective signal for it.
+
+**Loop**
+
+1. **Device.** A smartwatch reads pulse (optical sensor). Derive heart rate and heart-rate variability (HRV), for example RMSSD, as the stress indicator. Higher HRV and lower heart rate at rest generally mean less stress (unsourced; standard in the HRV literature).
+2. **Generate simple tracks.** AI-generated, deliberately controlled and low-dimensional: a few knobs such as tempo, key and mode, loudness envelope, spectral brightness, rhythmic density, texture (pad, piano, pulse), and any breathing-paced swell. Simple tracks make attribution possible. Rich music mixes too many variables.
+3. **Session.** Baseline pulse for a few minutes, play one track for a fixed length, then post-track pulse. Optionally a one-tap "how do you feel" for a second, subjective signal.
+4. **Log per session** to the cloud: the track's parameter vector, pre and post pulse metrics, time of day, motion level, and an anonymous listener id.
+5. **Learn.** Estimate which parameters reduce stress, for whom, and how much. Pick the next track by a bandit or Bayesian optimisation (explore new parameter settings, exploit what has worked), as the [sleep device study](https://arxiv.org/pdf/2211.02592) did with existing audio.
+
+**Question to answer**
+
+- Which patterns (slow tempo, low pitch, soft attack, sparse rhythm, a particular harmonic movement) reduce stress, and is the effect from the pattern itself or from the listener's habits and the time of day?
+- What share of the population responds to each pattern, and what splits responders from non-responders?
+- Ultimate goal: a small library of patterns that work for a large share of people, plus a personalisation layer for the rest.
+
+**Analysis**
+
+- Model each session as the change in HRV and heart rate against the track parameters, with a per-listener effect and a population effect (a mixed-effects or hierarchical model). The population term answers "what works for many"; the per-listener term answers "what works for me".
+- Cluster listeners by their response profile to find groups. Whether groups map to anything (age, listening habits, baseline HRV) is an open question.
+- Use feature attribution on the parameter vector to say which knob moves the result, then confirm in a designed experiment that varies one knob at a time.
+
+**Traps to design against**
+
+- **Stress falls anyway.** Sitting still for ten minutes lowers heart rate. Include silence and neutral-noise control sessions, and randomise track order, or every track will look effective.
+- **Regression to the mean.** People start a session when stressed; a high baseline tends to drop on its own. Compare against matched baseline levels.
+- **Motion and posture.** Wrist optical pulse is unreliable during movement. Accept sessions only when the watch reports stillness, and drop noisy windows.
+- **Entrainment is not relaxation.** Heart rate may follow musical tempo without any stress change. Check that HRV and the subjective tap agree.
+- **Watch accuracy.** Consumer wrist sensors are less accurate than a chest strap for HRV (unsourced). Validate against a strap on a small group.
+- **Novelty and fatigue.** A pattern's effect can fade with repeats, so track effect against how many times a person has heard it.
+- **Sample size.** Individual effects are small and noisy, so many sessions per person and many people are needed before a pattern is declared effective. Pre-register the analysis plan.
+
+**Cloud, privacy, ethics**
+
+- Pulse and mood are health data. Anonymise, collect explicit consent, say plainly what is stored, and allow deletion. Check the rules that apply (for example GDPR in Europe, HIPAA-like rules in the US if health claims are made).
+- Avoid medical claims ("treats anxiety") without evidence. Frame it as a relaxation tool, and show the user their own data.
+- A user whose stress rises during a track should be able to stop it, and the system should treat a rise as a negative reward.
+
+**Related work (search 2026-11, summaries only)**
+
+- [HeartDJ](https://digitalcommons.dartmouth.edu/cgi/viewcontent.cgi?article=1224&context=masters_theses) updates the generation prompt after each song from HRV and reports that AI music without biofeedback may raise stress.
+- [CAT](https://arxiv.org/pdf/2505.09872) generates relaxation music from context and stress level; its user study found stress reduction.
+- [Moodify](https://www.mdpi.com/2076-3417/12/21/11209) uses reinforcement learning toward a target emotion with per-session feedback, on existing tracks.
+- The [sleep device study](https://arxiv.org/pdf/2211.02592) uses a bandit over audio content with a physiological reward.
+- Not found: a study that pools generated-track parameters and watch HRV across a large population to learn which patterns work for many people. That is the new part here.
+
 ## Open questions
 
 - Does a fragment's effect survive without context (the build-up before the drop)? Window size matters.
