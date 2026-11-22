@@ -1,6 +1,29 @@
-# Music That Induces a Chosen State, Tuned to the Listener's Brain
+# Learning Which Music Moves People to a Chosen State, and for Whom
 
-## The Idea
+## Goals and approach (read this first)
+
+**Goals**
+
+1. **Find out, from data, which musical patterns move people toward a chosen state** (calm, sleep, focus, uplift) and **what share of the population each pattern works for.** Some patterns will work for many people; others only for a few. The long tail of listeners is expected.
+2. **Personalise per listener.** Given the population findings, learn what works for this person, and adjust as their response changes over time.
+3. **Start with stress reduction**, because a smartwatch gives an objective signal for it. Then extend to other states and use cases (long-haul drivers, autistic children, taste development), described later in the note.
+
+**How to achieve them**
+
+1. **Device.** A smartwatch measures pulse. Derive heart rate and heart-rate variability (HRV, the beat-to-beat variation) as an objective stress indicator, with a one-tap "how do you feel" as a second signal.
+2. **Simple generated tracks.** AI generates short, simple tracks with a few controlled settings (tempo, key and mode, loudness, brightness, rhythmic density, texture). Simple tracks make it possible to say which setting caused an effect.
+3. **Sessions.** Baseline pulse, one track, pulse afterwards. Include silence and neutral-sound control sessions in random order, so that the natural drop in stress from sitting still is not credited to the music.
+4. **Cloud statistics.** Log track settings and pulse changes across sessions and across people, anonymised and with consent. Fit a model with a population effect and a per-listener effect.
+5. **Find what causes the effect.** Test one setting at a time (slow tempo first, the best-supported lever), then check whether the effect holds up against the controls and across listener groups.
+6. **Close the loop.** Pick the next track by trial and error that favours what has worked and still explores. Over time this yields a library of patterns that work for a large share of people, plus a personalisation layer for the rest.
+
+**What is new:** the parts exist separately (generated music, wearable-driven music, per-listener learning), but I found no study that pools generated-track settings and wearable data across a large population to learn which patterns work for many people.
+
+**What is uncertain:** whether wrist pulse is a good enough stress signal, whether effects survive proper controls, and whether predicting brain responses from audio (the original route, below) adds anything beyond measuring the outcome directly.
+
+**Where to look:** the stress loop is in "Variant: generate simple tracks, measure stress with a watch"; the evidence in "Related work" inside that section; the use cases and the dopamine and taste sections follow; the original brain-model route is "The Idea" below.
+
+## The Idea (original route: predict brain responses from audio)
 
 Certain moments in certain tracks hit the brain's wiring in a particular way: chills, a lift, a calm, a pull to replay. Everyone's wiring is different, so what works has a long tail. Genre tags and "people who liked X also liked Y" miss it.
 
