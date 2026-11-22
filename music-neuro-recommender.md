@@ -271,6 +271,38 @@ None of these combines fragment-level effect prediction, multiple target states 
 - Datasets are tiny (five fMRI participants, tens of subjects, one in the GitHub project). A model of "which wiring gets hit" cannot be trained from them alone.
 - Most work targets one state (chills, pleasure, stress). A set of target states, including sleep and sexual arousal, with fragment-level control was not found.
 
+### Cheap first dataset: YouTube EDM tracks, likes and timestamped comments
+
+Public reactions can stand in for a brain scanner at the start. Search 2026-11, summaries only; the API fields and YouTube's terms were not checked.
+
+**What can be collected**
+
+- **Official API.** The YouTube Data API v3 returns comments through [`commentThreads.list`](https://developers.google.com/youtube/data/reference/rest/v3/commentThreads/list) (1 unit per call) and video details through `videos.list` ([1 unit per call](https://developers.google.com/youtube/v3/determine_quota_cost)). Each extra page costs the same again.
+- **Quota.** The default is [10,000 units a day](https://developers.google.com/youtube/v3/determine_quota_cost), reset at midnight Pacific time. `search.list` has its own small bucket (100 calls a day), so finding tracks by search is the bottleneck; listing the videos of known EDM channels or playlists is cheaper.
+- **Likes and views** should come from `videos.list`; field names not verified. Public dislike counts were removed in late 2021 (from my own knowledge, unsourced), so do not plan on them.
+- **Audio is not in the API.** Features need audio from a legal route: a licensed or open EDM catalogue, or user-supplied files.
+
+**Why timestamped comments are the valuable part**
+
+- Comments like "3:24 the drop!" or "chills at 2:10" label *which fragment* hit the listener. That is the fragment-level signal this route needs, without a scanner.
+- **Lag is the technical problem.** [Ping & Chen](https://arxiv.org/pdf/1708.02210) found timed comments trail the moment they refer to, and built a lag-calibration method. They released a Bilibili comment corpus, a bullet-comment emotion lexicon and highlight ground truth for 11 videos ([code](https://github.com/ChanningPing/VideoHighlightDetection)). A [2023 paper](https://mdpi.com/1099-4300/25/7/1016) finds highlights from sentiment in the comment time series.
+- That work is on Chinese video sites. I found nothing on YouTube EDM drops or SoundCloud timed comments, so a clean dataset of that kind appears to be open.
+
+**First analysis**
+
+1. Pick a set of EDM tracks with enough timestamped comments (a few dozen at least per track).
+2. Parse timestamps from comments, correct for lag, and build a comment-density curve per track.
+3. Extract audio features per fragment (energy, spectral flux, tempo changes, build and drop structure).
+4. Test whether fragments with high comment density differ from the rest on those features, and whether a model trained on some tracks predicts comment peaks on held-out tracks.
+5. Compare against the anticipation-then-peak timing from the [dopamine section](#dopamine-and-music-the-mechanism-behind-hits-the-wiring): comments should cluster at the peak, with build-up before it.
+
+**Limits and risks**
+
+- **Terms of service.** I could not confirm what YouTube's API terms say about storage time or model training. Read the current API Services Developer Policies first. Scraping the site or downloading audio with a tool usually breaks the terms.
+- **Bias.** Commenters are a small, self-selected group, and likes track popularity and the algorithm as well as the music. In EDM a drop is also a shared in-group moment, so some comments are hype, not listening response.
+- **Privacy.** Comments are personal data. Store aggregates (timestamps and counts) and not usernames.
+- **Likes alone are weak.** They say a track was liked, not which part or why.
+
 ### Practical path
 
 - **State labels without a brain:** ask the listener ("how do you feel now / want to feel"), and use proxies: replays, skips, scrubbing back to the same spot, saves, time-stamped "that part" taps, time to fall asleep, session length.
